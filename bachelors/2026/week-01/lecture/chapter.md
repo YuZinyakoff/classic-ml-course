@@ -452,7 +452,7 @@ baseline.
 класса 1. Доля правильных ответов равна
 
 $$
-\operatorname{accuracy}
+\mathrm{accuracy}
 =\frac{\text{число правильных прогнозов}}
 {\text{число всех прогнозов}}.
 $$
@@ -810,7 +810,7 @@ print(y_pred)  # [0, 0, 0]
 Доля правильных ответов равна
 
 $$
-\operatorname{accuracy}=\frac{2}{3}\approx 0.667.
+\mathrm{accuracy}=\frac{2}{3}\approx 0.667.
 $$
 
 Этот маленький пример связывает весь интерфейс. `fit` получает только

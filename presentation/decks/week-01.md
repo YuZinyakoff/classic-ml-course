@@ -43,18 +43,18 @@ download: false
 
 # Рабочее определение
 
-<div class="key-line mt-12 statement max-w-5xl">
-<strong>Машинное обучение</strong> — это методы, в которых правило решения задачи настраивается по данным, чтобы затем работать с новыми объектами.
+<div class="key-line mt-10 statement max-w-5xl">
+<strong>Машинное обучение</strong> — область, изучающая методы, которые позволяют строить и настраивать модели на основе данных или опыта.
 </div>
 
-<div class="term-grid grid grid-cols-3 gap-10 mt-14 text-2xl">
-  <div v-click><strong>данные</strong></div>
-  <div v-click><strong>настройка правила</strong></div>
-  <div v-click><strong>новые объекты</strong></div>
+<div class="term-grid grid grid-cols-3 gap-10 mt-12 text-2xl">
+  <div v-click><strong>область</strong><br><span class="micro">границы проводят по-разному</span></div>
+  <div v-click><strong>методы</strong><br><span class="micro">строят или настраивают модель</span></div>
+  <div v-click><strong>данные или опыт</strong><br><span class="micro">источник обучающего сигнала</span></div>
 </div>
 
 <div v-click class="micro mt-8">
-В литературе существуют разные определения ML. Для курса нам достаточно этой рабочей конструкции.
+В этом курсе основная рабочая конструкция будет предсказательной: исторические данные → алгоритм обучения → обученная модель → прогноз.
 </div>
 
 ---
@@ -94,7 +94,6 @@ download: false
   alt="Карта машинного обучения: режимы обучения, типы задач, семейства моделей, прикладные области, инженерный слой и фокус курса"
   class="landscape-focus"
 />
-
 ---
 
 <!-- S05 -->
@@ -107,10 +106,10 @@ download: false
 
 <div class="plain-columns grid grid-cols-2 gap-12 mt-10 text-[23px]">
   <div>
-    Эти характеристики отвечают на разные вопросы и вместе дают более полное описание системы.
+    Классификацию документов можно описать как обучение с учителем, классификацию и задачу из области NLP.
   </div>
   <div>
-    Инженерный слой связывает весь путь: от сбора данных и подготовки признаков до развёртывания и мониторинга.
+    Решать её можно моделями разных семейств: линейной моделью, деревом, ядерным методом или нейронной сетью.
   </div>
 </div>
 
@@ -128,16 +127,15 @@ download: false
   <div>• глубокое обучение</div>
   <div>• computer vision</div>
   <div>• NLP и обработка речи</div>
-  <div>• рекомендательные системы</div>
-  <div>• временные ряды</div>
+  <div>• рекомендательные системы и временные ряды</div>
   <div>• reinforcement learning</div>
   <div>• generative AI, foundation models, LLM, agents</div>
-  <div>• полный data engineering / MLOps-контур</div>
   <div>• полный курс по причинному выводу</div>
+  <div>• data engineering, MLOps и промышленная эксплуатация</div>
 </div>
 
 <div class="mt-12 statement">
-Современный ML огромен. Каждое из этих направлений требует отдельного связного курса.
+Современный ML намного шире одной учебной дисциплины. Каждое из этих направлений требует отдельного связного курса.
 </div>
 
 ---
@@ -201,7 +199,7 @@ download: false
 <ol start="6" class="text-[21px] space-y-3 mt-5">
   <li><strong>Регуляризация и проверка модели</strong><br><span class="muted">Ridge/Lasso · validation · cross-validation</span></li>
   <li><strong>kNN и многоклассовая классификация</strong><br><span class="muted">соседи · расстояния · softmax · multiclass metrics</span></li>
-  <li><strong>Обучаемые преобразования, `Pipeline` и утечки</strong><br><span class="muted">пропуски · категории · `ColumnTransformer` · leakage</span></li>
+  <li><strong>Обучаемые преобразования, Pipeline и утечки</strong><br><span class="muted">пропуски · категории · ColumnTransformer · leakage</span></li>
   <li><strong>Решающие деревья</strong><br><span class="muted">разбиения · глубина · критерии остановки</span></li>
   <li><strong>Коллоквиум</strong><br><span class="muted">понимание и применение материала недель 1–9</span></li>
 </ol>
@@ -216,7 +214,7 @@ download: false
   <li><strong>Bias–variance, bagging и Random Forest</strong><br><span class="muted">variance · bootstrap · усреднение · случайные признаки</span></li>
   <li><strong>Градиентный бустинг</strong><br><span class="muted">аддитивная модель · псевдоостатки · learning rate · early stopping</span></li>
   <li><strong>Современный tabular ML, HPO и диагностика</strong><br><span class="muted">CatBoost/XGBoost/LightGBM · поиск · анализ ошибок · interpretation</span></li>
-  <li><strong>Защита мини-проектов</strong><br><span class="muted">перенос общего ML-подхода в новую область</span></li>
+  <li><strong>Защита проектов</strong><br><span class="muted">перенос общего ML-подхода в новую область</span></li>
 </ol>
 
 ---
@@ -230,20 +228,23 @@ download: false
 $$
 \text{Итог}
 =
-\text{ДЗ}_1+\text{ДЗ}_2+\text{ДЗ}_3
-+\text{Проект}+\text{Коллоквиум}+\text{Семинары}
+\text{ДЗ}_1+
+\text{ДЗ}_2+
+\text{Проект}+
+\text{Коллоквиум}+
+\text{Семинары}
 $$
 
 <div class="text-[38px] font-700 text-[#2864dc]">
 
-$$1+1+1+2+3+2=10$$
+$$1+1+3+3+2=10$$
 
 </div>
 </div>
 
 <div class="grid grid-cols-2 gap-x-12 gap-y-2 mt-4 text-xl">
-  <div>ДЗ 1 / ДЗ 2 / ДЗ 3 — <strong>по 1 баллу</strong></div>
-  <div>Мини-проект — <strong>2 балла</strong></div>
+  <div>ДЗ 1 / ДЗ 2 — <strong>по 1 баллу</strong></div>
+  <div>Проект — <strong>3 балла</strong></div>
   <div>Устный коллоквиум — <strong>3 балла</strong></div>
   <div>Активность на семинарах — <strong>2 балла</strong></div>
 </div>
@@ -256,10 +257,9 @@ $$1+1+1+2+3+2=10$$
 
 # Домашние работы
 
-<div class="term-grid grid grid-cols-3 gap-10 mt-12 text-center">
+<div class="term-grid grid grid-cols-2 gap-10 mt-12 text-center max-w-3xl mx-auto">
   <div><strong class="text-[#2864dc]">ДЗ 1</strong><br><span class="muted">1 балл</span></div>
   <div><strong class="text-[#2864dc]">ДЗ 2</strong><br><span class="muted">1 балл</span></div>
-  <div><strong class="text-[#2864dc]">ДЗ 3</strong><br><span class="muted">1 балл</span></div>
 </div>
 
 <div class="key-line mt-14 text-2xl text-center">Темы домашних работ будут объявлены отдельно.</div>
@@ -286,21 +286,26 @@ $$1+1+1+2+3+2=10$$
 
 <!-- S15 -->
 
-# Мини-проект
+# Проект
 
-<div class="text-center mt-8 text-[40px] font-700 text-[#2864dc]">2 балла</div>
+<div class="text-center mt-4 text-[40px] font-700 text-[#2864dc]">3 балла</div>
 
-<div class="plain-columns grid grid-cols-3 gap-10 mt-8 text-[21px] text-center">
-  <div>Самостоятельно освоить соседнюю область ML.</div>
-  <div>Применить общий процесс ML-эксперимента.</div>
-  <div>Представить результат группе.</div>
+<div class="plain-columns grid grid-cols-3 gap-10 mt-5 text-[20px] text-center">
+  <div>Разобраться в соседней области ML.</div>
+  <div>Понять центральный механизм.</div>
+  <div>Показать небольшой эксперимент.</div>
 </div>
 
-<div class="key-line mt-11 text-[21px] text-center">
-Кластеризация · нейронные сети · временные ряды · анализ текста · A/B-тестирование · рекомендательные системы
+<div class="term-grid grid grid-cols-2 gap-x-8 gap-y-3 mt-8 text-[18px]">
+  <div><strong>PCA и k-means</strong><br><span class="muted">снижение размерности и кластеризация</span></div>
+  <div><strong>Нейронные сети</strong><br><span class="muted">MLP и backpropagation</span></div>
+  <div><strong>Временные ряды</strong><br><span class="muted">прогнозирование и temporal backtesting</span></div>
+  <div><strong>Текст</strong><br><span class="muted">Naive Bayes и TF-IDF + логистическая регрессия</span></div>
+  <div><strong>A/B-тестирование</strong><br><span class="muted">randomized experiment и causal effect</span></div>
+  <div><strong>Рекомендательные системы</strong><br><span class="muted">collaborative filtering и matrix factorization</span></div>
 </div>
 
-<div class="micro mt-5 text-center">Предварительные темы; формулировки будут уточнены.</div>
+<div class="micro mt-5 text-center">Подробные постановки, данные и требования будут опубликованы отдельно.</div>
 
 ---
 
@@ -313,7 +318,7 @@ $$1+1+1+2+3+2=10$$
   <li>Современный ML можно описывать по режиму обучения, типу задачи, моделям и области применения.</li>
   <li>Курс сосредоточен на классическом обучении с учителем для табличных данных.</li>
   <li>Маршрут идёт от постановки и линейных моделей к ансамблям и диагностике.</li>
-  <li>Оценка складывается из домашних работ, проекта, коллоквиума и семинарской активности.</li>
+  <li>Оценка складывается из двух домашних работ, проекта, коллоквиума и семинарской активности.</li>
 </ul>
 </div>
 
@@ -321,7 +326,7 @@ $$1+1+1+2+3+2=10$$
 
 <!-- S17 -->
 
-<div class="section-kicker">Акт I · От прикладного вопроса к математической задаче</div>
+<div class="section-kicker">Часть I · От прикладного вопроса к математической задаче</div>
 
 # Кейс: список клиентов для команды удержания
 
@@ -550,27 +555,25 @@ $$
 </ul>
 </div>
 
-<div class="statement mt-10 text-center">Пока мы ещё ничего не доказали о качестве модели.</div>
+<div class="statement mt-10 text-center">Пока мы ещё ничего не сказали о качестве модели</div>
 
 ---
 
 <!-- S28 -->
 
-<div class="section-kicker">Акт II · Проверка прогноза на новых объектах</div>
+<div class="section-kicker">Часть II · Проверка прогноза на новых объектах</div>
 
-# Что узнаем на знакомых строках?
+
 
 <div class="statement mt-8">
 Что говорит качество модели на тех же данных, по которым она обучалась?
 </div>
 
+
 <div v-click class="key-line mt-10 text-[27px]">
 <strong>Обобщающая способность</strong> — способность модели сохранять качество на новых объектах.
 </div>
 
-<div v-click class="micro mt-7">
-Дальше рассматриваем именно предсказательную задачу. Для оценки связей и параметров важны также дизайн выборки, предположения и оценка неопределённости.
-</div>
 
 ---
 
@@ -606,7 +609,7 @@ $$
   </div>
 </div>
 
-<div v-click class="statement mt-10 text-center">Разделение задаёт роли данных, а не просто две доли таблицы.</div>
+<div v-click class="statement mt-10 text-center">Обучающая и тестовая выборки играют разные роли в процессе обучения</div>
 
 ---
 
@@ -633,14 +636,13 @@ Test повлиял на решения исследователя. Получе
 # Как тогда сравнивать модели?
 
 <div class="key-line statement mt-14">
-Для итеративного выбора используют отдельную проверочную информацию; финальный test стараются оставить независимым.
+Финальный test стараются оставить независимым.
 </div>
 
 <div v-click class="text-2xl mt-12 text-center">
-Например, можно выделить <strong>validation-выборку</strong>.
+Для итеративного выбора используют отдельную <strong>валидационную выборку (validation)</strong>.
 </div>
 
-<div v-click class="micro mt-8 text-center">Подробный протокол проверки и cross-validation появятся позже.</div>
 
 ---
 
@@ -648,7 +650,7 @@ Test повлиял на решения исследователя. Получе
 
 # Бейзлайн задаёт точку отсчёта
 
-<div class="text-[68px] font-700 text-[#2864dc] text-center mt-5">95% accuracy</div>
+<div class="text-[68px] font-700 text-[#2864dc] text-center mt-5">95% точности</div>
 
 <div class="statement text-center mt-5">Это хороший результат?</div>
 
@@ -678,7 +680,7 @@ Test повлиял на решения исследователя. Получе
   <div><strong>следующий шаг</strong><br><span class="micro">предметное правило → обучаемая модель</span></div>
 </div>
 
-<div class="warning-line mt-5 text-xl"><strong>Правило «всегда 0»</strong> не обнаружит ни одного редкого объекта класса 1. Другие метрики появятся на неделе 5.</div>
+<div class="warning-line mt-5 text-xl"><strong>Правило «всегда 0»</strong> не обнаружит ни одного редкого объекта класса 1.</div>
 
 ---
 
@@ -689,7 +691,7 @@ Test повлиял на решения исследователя. Получе
 <div class="recap-list mt-8">
 <ul class="text-[24px] space-y-5">
   <li>Обобщающая способность относится к качеству на новых объектах.</li>
-  <li>Train строит модель, test независимо проверяет её при разумном split.</li>
+  <li>На train обучаем модель, на test независимо проверяем её</li>
   <li>Повторная обратная связь по test разрушает независимость оценки.</li>
   <li>Бейзлайн задаёт точку отсчёта для интерпретации метрики.</li>
 </ul>
@@ -699,7 +701,7 @@ Test повлиял на решения исследователя. Получе
 
 <!-- S36 -->
 
-<div class="section-kicker">Акт III · Недообучение и переобучение</div>
+<div class="section-kicker">Часть III · Недообучение и переобучение</div>
 
 # Сначала только данные
 
@@ -791,7 +793,7 @@ Test повлиял на решения исследователя. Получе
 
 # Сложность модели и две ошибки
 
-<div class="text-xl font-650 text-[#2864dc]">Типичная концептуальная картина при увеличении гибкости модели</div>
+<div class="text-xl font-650 text-[#2864dc]">Частая картина при увеличении гибкости модели</div>
 
 <img
   src="/assets/week-01/complexity-errors.svg"
@@ -805,6 +807,31 @@ Test повлиял на решения исследователя. Получе
 ---
 
 <!-- S42 -->
+
+# Проще говоря
+
+<div class="plain-columns grid grid-cols-3 gap-8 mt-8 text-[21px]">
+  <div class="warning-line">
+    <strong>Слишком просто</strong>
+    <p>Модель не умеет описать часть устойчивой закономерности.</p>
+  </div>
+  <div v-click class="success-line">
+    <strong>Разумно гибко</strong>
+    <p>Модель улавливает основную структуру данных.</p>
+  </div>
+  <div v-click class="warning-line">
+    <strong>Слишком гибко</strong>
+    <p>Появляются способы подстроиться под случайные детали этой выборки.</p>
+  </div>
+</div>
+
+<div v-click class="key-line mt-10 text-[26px] text-center">
+Очень маленькая ошибка на train сама по себе ещё мало говорит о качестве будущих прогнозов.
+</div>
+
+---
+
+<!-- S43 -->
 
 # Что говорит разрыв между ошибками
 
@@ -825,7 +852,7 @@ Test повлиял на решения исследователя. Получе
 
 ---
 
-<!-- S43 -->
+<!-- S44 -->
 
 # Регрессия: процесс порождения данных
 
@@ -848,7 +875,7 @@ $$
 
 ---
 
-<!-- S44 -->
+<!-- S45 -->
 
 # Недостаточная и разумная гибкость
 
@@ -864,7 +891,7 @@ $$
 
 ---
 
-<!-- S45 -->
+<!-- S46 -->
 
 # Интерполяция: ноль на train
 
@@ -879,12 +906,12 @@ $$
 />
 
 <div class="visual-conclusion mt-2">
-Нулевая train error не гарантирует хороший прогноз между наблюдениями.
+Нулевая train error не гарантирует хороший прогноз на новых наблюдениях.
 </div>
 
 ---
 
-<!-- S46 -->
+<!-- S47 -->
 
 # А что будет за пределами данных?
 
@@ -898,11 +925,11 @@ $$
   class="figure-wide mt-1"
 />
 
-<div class="micro mt-2 text-center">Линейная модель даёт простой и предсказуемый по форме бейзлайн, однако её продолжение тоже может быть неверным.</div>
+<div class="micro mt-2 text-center">Линейная модель даёт простое и предсказуемое по форме продолжение, но оно тоже может быть неверным.</div>
 
 ---
 
-<!-- S47 -->
+<!-- S48 -->
 
 # Таким образом
 
@@ -917,11 +944,11 @@ $$
 
 ---
 
-<!-- S48 -->
+<!-- S49 -->
 
-<div class="section-kicker">Эпилог · Модель как объект Python</div>
+<div class="section-kicker">Часть IV · Немного ООП: Модель как объект Python</div>
 
-# Python уже окружает нас объектами
+# Знакомые значения в Python — тоже объекты
 
 ```python {1-3|5-7|all}
 balance = 1500
@@ -934,12 +961,12 @@ print(type(active_days))  # <class 'list'>
 ```
 
 <div v-click class="key-line mt-8 text-2xl">
-Мы уже работали с объектами и классами Python, даже если не использовали эту терминологию.
+Мы уже работали с объектами и классами Python, даже если не использовали эту терминологию. Числа, строки и списки — объекты соответствующих классов
 </div>
 
 ---
 
-<!-- S49 -->
+<!-- S50 -->
 
 # Класс, экземпляр, атрибут и метод
 
@@ -952,7 +979,7 @@ print(type(active_days))  # <class 'list'>
 
 ---
 
-<!-- S50 -->
+<!-- S51 -->
 
 # Один компактный класс: `Account`
 
@@ -981,7 +1008,7 @@ class Account:
 
 ---
 
-<!-- S51 -->
+<!-- S52 -->
 
 # Создаём экземпляр и вызываем метод
 
@@ -1004,7 +1031,7 @@ print(account.active)  # False
 
 ---
 
-<!-- S52 -->
+<!-- S53 -->
 
 # Что означает `self`
 
@@ -1023,7 +1050,7 @@ def cancel(self):
 
 ---
 
-<!-- S53 -->
+<!-- S54 -->
 
 # Обычный объект → объект модели
 
@@ -1046,7 +1073,7 @@ def cancel(self):
 
 ---
 
-<!-- S54 -->
+<!-- S55 -->
 
 # Разработаем простой классификатор
 
@@ -1062,7 +1089,7 @@ def cancel(self):
 
 ---
 
-<!-- S55 -->
+<!-- S56 -->
 
 # Полный класс: смотрим на `fit`
 
@@ -1087,7 +1114,7 @@ class MostFrequentClassifier:
 
 ---
 
-<!-- S56 -->
+<!-- S57 -->
 
 # Тот же класс: смотрим на `predict`
 
@@ -1110,7 +1137,7 @@ class MostFrequentClassifier:
 
 ---
 
-<!-- S57 -->
+<!-- S58 -->
 
 # Данные маленького эксперимента
 
@@ -1149,7 +1176,7 @@ y_test = [1, 0, 0]
 
 ---
 
-<!-- S58 -->
+<!-- S59 -->
 
 # Что изменилось после `fit`?
 
@@ -1182,7 +1209,7 @@ vars(model)
 
 ---
 
-<!-- S59 -->
+<!-- S60 -->
 
 # Прогноз и ручной расчёт accuracy
 
@@ -1209,7 +1236,7 @@ $$
 
 ---
 
-<!-- S60 -->
+<!-- S61 -->
 
 # Мост к `DummyClassifier`
 
@@ -1229,7 +1256,7 @@ y_pred = baseline.predict(X_test)
 
 ---
 
-<!-- S61 -->
+<!-- S62 -->
 
 # Таким образом
 
@@ -1244,7 +1271,7 @@ y_pred = baseline.predict(X_test)
 
 ---
 
-<!-- S62 -->
+<!-- S63 -->
 
 # Первый проверяемый ML-эксперимент целиком
 
@@ -1261,7 +1288,7 @@ y_pred = baseline.predict(X_test)
 
 ---
 
-<!-- S63 -->
+<!-- S64 -->
 
 <div class="section-kicker">Итог недели 1</div>
 
@@ -1336,20 +1363,20 @@ class Account:
 
 # A03 · Что почитать после лекции
 
-<div class="text-[19px] space-y-6 mt-5">
+<div class="text-[18px] space-y-5 mt-4">
   <div>
-    <strong>Train/test и гибкость моделей</strong><br>
-    James G., Witten D., Hastie T., Tibshirani R., Taylor J. <em>An Introduction to Statistical Learning: with Applications in Python</em>. Springer, 2023. §§2.1–2.2.1.<br>
-    <a href="https://doi.org/10.1007/978-3-031-38747-0">doi.org/10.1007/978-3-031-38747-0</a>
+    <strong>James G., Witten D., Hastie T., Tibshirani R., Taylor J. — <em>An Introduction to Statistical Learning: with Applications in Python</em>, §§2.1–2.2.1.</strong><br>
+    <a href="https://doi.org/10.1007/978-3-031-38747-0">doi.org/10.1007/978-3-031-38747-0</a><br>
+    Полезно для связи между прогнозом, ошибкой на train/test, гибкостью модели и переобучением.
   </div>
   <div>
-    <strong>Более формальная постановка ML-задачи</strong><br>
-    Соколов Е. А. <em>Машинное обучение — 1. Лекция 1</em>. ФКН НИУ ВШЭ, 2026.<br>
-    <a href="https://github.com/esokolov/ml-course-hse/blob/master/ml1-2026-spring/lecture-notes/lecture01-intro.tex">github.com/esokolov/ml-course-hse/…/lecture01-intro.tex</a>
+    <strong>Соколов Е. А. — <em>Машинное обучение — 1. Лекция 1: Введение в машинное обучение</em>.</strong><br>
+    <a href="https://github.com/esokolov/ml-course-hse/blob/master/ml1-2026-spring/lecture-notes/lecture01-intro.tex">github.com/esokolov/ml-course-hse/…/lecture01-intro.tex</a><br>
+    Более формальная постановка ML-задачи через пространства объектов и ответов, семейство моделей, функцию ошибки и алгоритм обучения.
   </div>
   <div>
-    <strong>Интерактивная интуиция переобучения</strong><br>
-    Wilber J., Werness B. <em>The Bias–Variance Tradeoff</em>. MLU-Explain, 2021.<br>
-    <a href="https://mlu-explain.github.io/bias-variance/">mlu-explain.github.io/bias-variance/</a>
+    <strong>Wilber J., Werness B. — <em>The Bias–Variance Tradeoff</em>. MLU-Explain.</strong><br>
+    <a href="https://mlu-explain.github.io/bias-variance/">mlu-explain.github.io/bias-variance/</a><br>
+    Интерактивная интуиция недообучения, переобучения и чувствительности результата к конкретной выборке.
   </div>
 </div>
