@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Момент прогноза отделяет доступную историю от будущего</title>
+  <desc id="desc">До момента t0 доступны tenure_months, active_days_14d, late_payments_90d и support_tickets_30d. После t0 находятся звонок команды, будущая активность и отмена в течение 30 дней; их нельзя использовать как признаки.</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L0 6L9 3z" fill="#172033"/></marker><style>text{font-family:Inter,"Segoe UI",Arial,sans-serif;fill:#172033}.h{font-size:29px;font-weight:700}.n{font-size:19px;font-weight:700}.m{font-size:15px;fill:#66758b}.ok{font-size:16px;fill:#2864dc}.bad{font-size:16px;fill:#c83e3e}</style></defs>
+  <rect width="1200" height="500" fill="#fff"/>
+  <text x="48" y="48" class="h">В итоговой таблице видно будущее; в момент прогноза — ещё нет</text>
+  <line x1="75" y1="260" x2="1125" y2="260" stroke="#172033" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="78" y="90" width="510" height="125" rx="18" fill="#eef3fb"/>
+  <text x="100" y="121" class="n">Доступно до t₀</text>
+  <text x="100" y="151" class="ok">tenure_months · active_days_14d</text>
+  <text x="100" y="181" class="ok">late_payments_90d · support_tickets_30d</text>
+  <line x1="600" y1="76" x2="600" y2="405" stroke="#172033" stroke-width="5"/>
+  <circle cx="600" cy="260" r="17" fill="#172033"/>
+  <text x="600" y="438" text-anchor="middle" class="n">t₀ — составляем список для команды удержания клиентов</text>
+  <rect x="632" y="90" width="490" height="125" rx="18" fill="#fff2f0"/>
+  <text x="654" y="121" class="n">Появится только после t₀</text>
+  <text x="654" y="151" class="bad">результат будущего звонка · будущая активность</text>
+  <text x="654" y="181" class="bad">дата и причина будущей отмены</text>
+  <path d="M600 310 H1065" stroke="#d97022" stroke-width="8" stroke-linecap="round"/>
+  <path d="M600 310 V326 M1065 310 V326" stroke="#d97022" stroke-width="3"/>
+  <text x="832" y="354" text-anchor="middle" class="n">горизонт прогноза: следующие 30 дней</text>
+  <circle cx="1065" cy="260" r="13" fill="#d97022"/>
+  <text x="1065" y="242" text-anchor="middle" class="m">известна цель</text>
+  <text x="600" y="478" text-anchor="middle" class="m">Утечка будущего возникает, когда модель получает информацию справа от момента прогноза.</text>
+</svg>

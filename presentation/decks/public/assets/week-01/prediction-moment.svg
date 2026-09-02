@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Момент прогноза отделяет доступную историю от будущего</title>
+  <desc id="desc">Слева от t0 доступны срок подписки, активность, платежи и обращения. Справа находятся будущий звонок, активность и отмена; их нельзя использовать как признаки.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0L0 6L9 3z" fill="#172033"/>
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, sans-serif; fill: #0b1f3a; }
+      .heading { font-size: 29px; font-weight: 700; }
+      .label { font-size: 23px; font-weight: 700; }
+      .item { font-size: 21px; font-weight: 650; }
+      .available { fill: #0648a7; }
+      .future { fill: #983b00; }
+      .muted { fill: #26364d; font-size: 18px; font-weight: 650; }
+    </style>
+  </defs>
+  <rect width="1200" height="430" fill="#ffffff"/>
+  <text x="52" y="44" class="heading">Какая информация существует в момент прогноза?</text>
+  <line x1="70" y1="244" x2="1134" y2="244" stroke="#0b1f3a" stroke-width="5" marker-end="url(#arrow)"/>
+  <line x1="600" y1="70" x2="600" y2="374" stroke="#0b1f3a" stroke-width="6"/>
+  <circle cx="600" cy="244" r="16" fill="#0b1f3a"/>
+
+  <text x="78" y="100" class="label available">Доступно до t₀</text>
+  <text x="78" y="142" class="item available">tenure_months · active_days_14d</text>
+  <text x="78" y="182" class="item available">late_payments_90d · support_tickets_30d</text>
+
+  <text x="638" y="100" class="label future">Появится после t₀</text>
+  <text x="638" y="142" class="item future">результат будущего звонка · будущая активность</text>
+  <text x="638" y="182" class="item future">дата и причина будущей отмены</text>
+
+  <text x="600" y="408" text-anchor="middle" class="label">t₀ · составляем список клиентов на завтра</text>
+  <path d="M600 292H1060" stroke="#983b00" stroke-width="9" stroke-linecap="round"/>
+  <path d="M600 281V305M1060 281V305" stroke="#983b00" stroke-width="4"/>
+  <text x="830" y="338" text-anchor="middle" class="label">горизонт прогноза · следующие 30 дней</text>
+  <circle cx="1060" cy="244" r="14" fill="#983b00"/>
+  <text x="1060" y="220" text-anchor="middle" class="muted">становится известна цель</text>
+</svg>

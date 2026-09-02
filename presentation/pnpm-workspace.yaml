@@ -1,0 +1,3 @@
+allowBuilds:
+  playwright-chromium: true
+verifyDepsBeforeRun: false

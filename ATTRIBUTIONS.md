@@ -14,3 +14,14 @@
 
 Атрибуции будут добавляться вместе с соответствующими учебными материалами.
 
+## Bank Marketing — Week 1
+
+- **Материал:** `bachelors/2026/week-01/seminar/data/bank-week01.csv`
+- **Dataset:** Bank Marketing.
+- **Авторы:** S. Moro, P. Rita, P. Cortez.
+- **Источник:** <https://archive.ics.uci.edu/dataset/222/bank+marketing>.
+- **DOI:** <https://doi.org/10.24432/C5K306>.
+- **Лицензия:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- **Изменения:** сохранены все 4521 строки исходного `bank.csv` и выбран
+  утверждённый набор из 11 столбцов; строки и значения не изменены.
+- **Дата проверки условий:** 2026-08-13.

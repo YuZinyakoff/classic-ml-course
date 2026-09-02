@@ -1,0 +1,28 @@
+{
+  "name": "classic-ml-course-slides",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@11.21.0",
+  "engines": {
+    "node": "22.20.0"
+  },
+  "scripts": {
+    "install:browsers": "cross-env PLAYWRIGHT_BROWSERS_PATH=0 playwright install chromium",
+    "dev": "slidev",
+    "build": "slidev build --without-notes",
+    "build:public": "slidev build --without-notes",
+    "build:teaching": "slidev build",
+    "export:pdf": "cross-env PLAYWRIGHT_BROWSERS_PATH=0 slidev export --format pdf --with-clicks false --per-slide --wait 1000",
+    "export:pdf:student": "cross-env PLAYWRIGHT_BROWSERS_PATH=0 slidev export --format pdf --with-clicks false --per-slide --wait 1000",
+    "export:pdf:teaching": "cross-env PLAYWRIGHT_BROWSERS_PATH=0 slidev export --format pdf --with-clicks --per-slide --wait 1000",
+    "export:pptx:emergency": "cross-env PLAYWRIGHT_BROWSERS_PATH=0 slidev export --format pptx --with-clicks",
+    "check:overflow": "cross-env PLAYWRIGHT_BROWSERS_PATH=0 node scripts/check-slide-overflow.mjs"
+  },
+  "devDependencies": {
+    "@slidev/cli": "52.19.0",
+    "@slidev/theme-default": "0.25.0",
+    "cross-env": "10.1.0",
+    "katex": "0.16.47",
+    "playwright-chromium": "1.62.1"
+  }
+}
