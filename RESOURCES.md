@@ -97,7 +97,7 @@
 
 ## Если хочется глубже разобраться в теории
 
-- [The Elements of Statistical Learning (ESL)](https://hastie.su.domains/ElemStatLearn/)
+- [The Elements of Statistical Learning (ESL)](https://www.sas.upenn.edu/~fdiebold/NoHesitations/BookAdvanced.pdf)
   — более глубокий и математически плотный родственник ISLP. Полезен для
   углубления в регуляризацию, нелинейные методы, деревья, ансамбли и общую
   теорию статистического обучения.
