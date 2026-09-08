@@ -1,0 +1,7 @@
+# Runtime dependencies for the approved Week 1 seminar notebook.
+# Validated with Python 3.11.9 on 2026-08-13.
+numpy==2.4.6
+pandas==3.0.5
+matplotlib==3.11.1
+scikit-learn==1.9.0
+nbconvert==7.17.1
