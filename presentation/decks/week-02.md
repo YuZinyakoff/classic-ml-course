@@ -267,7 +267,7 @@ download: false
 
 <SectionChrome section="Геометрия МНК" />
 # Средний прогноз как ортогональная проекция
-<div class="grid grid-cols-[0.93fr_1.07fr] gap-8 items-center mt-1"><div class="proof-stack text-center text-[20px]"><MathBlock formula="RSS(c)=\|y-c\mathbf1\|_2^2" /><div v-click="2" class="text-left leading-[1.35]">Поэтому минимизировать RSS — значит среди всех допустимых прогнозов вида c𝟏 найти ближайший к наблюдаемому вектору y.</div><div v-click="3"><MathBlock formula="r=y-\hat y=y-\hat c\mathbf1,\qquad r\perp\mathbf1" /></div><div v-click="4" class="text-left leading-[1.35]">Для ближайшей точки остаточный вектор перпендикулярен прямой допустимых прогнозов.</div><div v-click="5"><MathBlock formula="\langle y-\hat c\mathbf1,\mathbf1\rangle=0\Longrightarrow\hat c=\frac{\langle y,\mathbf1\rangle}{\langle\mathbf1,\mathbf1\rangle}=\bar y" /></div><div v-click="6" class="text-[25px]"><MathBlock formula="\boxed{\hat y=\bar y\mathbf1}" /></div></div><ConstantProjection phase="projection" /></div>
+<div class="grid grid-cols-[1fr_1fr] gap-7 items-center -mt-1"><div class="proof-stack text-center text-[17px] !gap-[6px]"><MathBlock formula="RSS(c)=\|y-c\mathbf1\|_2^2" /><div v-click="2" class="text-left leading-[1.3]">Минимизировать RSS — значит найти ближайший к наблюдаемому вектору y допустимый прогноз c𝟏.</div><div v-click="3"><MathBlock formula="r=y-\hat y=y-\hat c\mathbf1,\qquad r\perp\mathbf1" /></div><div v-click="4"><MathBlock formula="\langle y-\hat c\mathbf1,\mathbf1\rangle=0" /><div class="mt-1"><MathBlock formula="\langle y,\mathbf1\rangle-\hat c\langle\mathbf1,\mathbf1\rangle=0" /></div></div><div v-click="5"><MathBlock formula="\langle y,\mathbf1\rangle=\sum_{i=1}^n y_i,\qquad \langle\mathbf1,\mathbf1\rangle=n" /></div><div v-click="6"><MathBlock formula="\hat c=\frac{\sum_i y_i}{n}=\bar y" /></div><div v-click="7" class="text-[19px]"><MathBlock formula="\hat y=\bar y\,\mathbf1=\begin{pmatrix}\bar y\\\vdots\\\bar y\end{pmatrix}" /></div></div><ConstantProjection phase="projection" /></div>
 
 ---
 
@@ -275,7 +275,7 @@ download: false
 
 <SectionChrome section="Геометрия МНК" />
 # Добавляем один признак
-<div class="grid grid-cols-[0.92fr_1.08fr] gap-8 items-center mt-1"><div class="text-center text-[21px]"><MathBlock formula="x=\begin{pmatrix}x_1\\\vdots\\x_n\end{pmatrix}\in\mathbb R^n" /><div class="mt-5"><MathBlock formula="X\beta=\beta_0\mathbf1+\beta_1x" /></div><div v-click="4" class="mt-6"><MathBlock formula="L_1=\{\beta_0\mathbf1+\beta_1x:\beta_0,\beta_1\in\mathbb R\}" /></div><div v-click="5" class="key-line mt-6 text-left text-[19px]">Мы всё ещё находимся в ℝⁿ: одна координата соответствует одному обучающему объекту.</div><div v-click="6" class="key-line mt-5 text-left text-[19px]">Добавили направление x: если 1 и x линейно независимы, прямая допустимых прогнозов превращается в двумерную плоскость.</div></div><PlaneProjection phase="build" /></div>
+<div class="grid grid-cols-[1fr_1fr] gap-7 items-center -mt-1"><div class="text-center text-[18px]"><MathBlock formula="x=\begin{pmatrix}x_1\\\vdots\\x_n\end{pmatrix}\in\mathbb R^n" /><div class="mt-3"><MathBlock formula="X\beta=\begin{pmatrix}\beta_0+\beta_1x_1\\\vdots\\\beta_0+\beta_1x_n\end{pmatrix}=\beta_0\mathbf1+\beta_1x" /></div><div v-click="4" class="mt-4"><MathBlock formula="L_1=\{\beta_0\mathbf1+\beta_1x:\beta_0,\beta_1\in\mathbb R\}" /></div><div v-click="5" class="key-line mt-4 text-left text-[18px]">Мы всё ещё находимся в ℝⁿ: одна координата соответствует одному обучающему объекту.</div><div v-click="6" class="key-line mt-4 text-left text-[18px]">Добавили направление x: если 1 и x линейно независимы, прямая допустимых прогнозов превращается в двумерную плоскость.</div></div><PlaneProjection phase="build" /></div>
 
 ---
 
@@ -351,8 +351,7 @@ download: false
 
 <SectionChrome section="Ранг и мультиколлинеарность" />
 # Точная мультиколлинеарность: постановка
-<div class="grid grid-cols-[0.72fr_1.28fr] gap-10 items-center mt-2"><table class="text-[19px]"><thead><tr><th>объект</th><th>x₁</th><th>x₂</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>2</td></tr><tr><td>2</td><td>3</td><td>6</td></tr><tr><td>3</td><td>5</td><td>10</td></tr></tbody></table><div class="text-center text-[23px]"><MathBlock formula="\boxed{x_2=2x_1}" /><div v-click class="mt-5"><MathBlock formula="\beta_1x_1+\beta_2x_2" /></div><div v-click class="mt-5"><MathBlock formula="\boxed{\beta_1'=\beta_1-2t,\qquad\beta_2'=\beta_2+t}" /></div></div></div>
-<div v-click class="statement text-center mt-7">Изменится ли прогноз?</div>
+<div class="grid grid-cols-[0.68fr_1.32fr] gap-9 items-center mt-1"><table class="text-[19px]"><thead><tr><th>объект</th><th>x₁</th><th>x₂</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>2</td></tr><tr><td>2</td><td>3</td><td>6</td></tr><tr><td>3</td><td>5</td><td>10</td></tr></tbody></table><div class="text-center text-[19px]"><MathBlock formula="\boxed{x_2=2x_1}" class="text-[27px]" /><div v-click class="mt-3">Чтобы прогнозы не изменились:</div><div v-click class="mt-2"><MathBlock formula="\Delta\beta_1x_1+\Delta\beta_2x_2=(\Delta\beta_1+2\Delta\beta_2)x_1=0" /></div><div v-click class="mt-3"><MathBlock formula="\Delta\beta_1+2\Delta\beta_2=0" /></div><div v-click class="mt-3"><MathBlock formula="\Delta\beta_2=t\quad\Longrightarrow\quad\Delta\beta_1=-2t" /></div><div v-click class="mt-3"><MathBlock formula="\boxed{\beta_1'=\beta_1-2t,\qquad\beta_2'=\beta_2+t}" /></div></div></div>
 
 ---
 
@@ -360,9 +359,10 @@ download: false
 
 <SectionChrome section="Ранг и мультиколлинеарность" />
 # Разные коэффициенты — тот же прогноз
-<div class="text-center text-[20px] mt-2"><MathBlock formula="\begin{aligned}\beta_1'x_1+\beta_2'x_2&=(\beta_1-2t)x_1+(\beta_2+t)x_2\\&=(\beta_1-2t)x_1+(\beta_2+t)2x_1\\&=\beta_1x_1-2tx_1+2\beta_2x_1+2tx_1\\&=\beta_1x_1+\beta_2x_2.\end{aligned}" /></div>
+<div class="text-center text-[21px] mt-3"><MathBlock formula="\begin{aligned}\beta_1'x_1+\beta_2'x_2&=(\beta_1-2t)x_1+(\beta_2+t)2x_1\\&=\beta_1x_1+\beta_2x_2.\end{aligned}" /></div>
+<div v-click class="grid grid-cols-2 gap-6 mt-6 text-[19px]"><div class="key-line"><strong>Число t произвольно:</strong> оно задаёт размер изменения коэффициентов.</div><div class="warning-line"><strong>Направление не произвольно:</strong> при нарушении полученного условия прогнозы изменятся.</div></div>
 <div v-click class="success-line mt-5 text-center text-[20px]">Данные определяют прогнозы, но не позволяют однозначно разделить вклад зависимых столбцов.</div>
-<div v-click class="text-center text-[27px] mt-5"><MathBlock formula="\operatorname{rank}(X)<q\Longrightarrow\hat\beta\text{ может быть неединственным}" /></div>
+<div v-click class="text-center text-[25px] mt-4"><MathBlock formula="\operatorname{rank}(X)<q\Longrightarrow\hat\beta\text{ может быть неединственным}" /></div>
 
 ---
 
