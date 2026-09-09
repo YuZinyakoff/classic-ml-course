@@ -1,9 +1,27 @@
 <script setup lang="ts">
-import SourceMathBlock from '../../components/MathBlock.vue'
+import katex from 'katex'
+import 'katex/dist/katex.min.css'
+import { computed } from 'vue'
 
-defineOptions({ inheritAttrs: false })
+const props = withDefaults(defineProps<{
+  formula: string
+  display?: boolean
+}>(), {
+  display: true,
+})
+
+const rendered = computed(() => katex.renderToString(props.formula, {
+  displayMode: props.display,
+  throwOnError: true,
+}))
 </script>
 
 <template>
-  <SourceMathBlock v-bind="$attrs" />
+  <div class="deck-math" v-html="rendered" />
 </template>
+
+<style scoped>
+.deck-math :deep(.katex-display) {
+  margin: 0;
+}
+</style>

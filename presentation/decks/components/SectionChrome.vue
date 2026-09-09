@@ -1,7 +1,10 @@
 <script setup lang="ts">
-import SectionChrome from '../../components/SectionChrome.vue'
+defineProps<{ section: string }>()
 </script>
 
 <template>
-  <SectionChrome v-bind="$attrs" />
+  <div class="section-chrome" aria-hidden="true">
+    <span>{{ section }}</span>
+    <span>МАШИННОЕ ОБУЧЕНИЕ</span>
+  </div>
 </template>
