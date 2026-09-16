@@ -46,10 +46,12 @@ jobs:
         run: |
           mkdir -p .pages/bachelors/2026/week-01
           mkdir -p .pages/bachelors/2026/week-02
+          mkdir -p .pages/bachelors/2026/week-03
           mkdir -p .pages/masters/2026/week-01
           cp -R site/. .pages/
           cp bachelors/2026/week-01/lecture/slides.pdf .pages/bachelors/2026/week-01/slides.pdf
           cp bachelors/2026/week-02/lecture/slides.pdf .pages/bachelors/2026/week-02/slides.pdf
+          cp bachelors/2026/week-03/lecture/slides.pdf .pages/bachelors/2026/week-03/slides.pdf
           cp masters/2026/week-01/lecture/slides.pdf .pages/masters/2026/week-01/slides.pdf
 
       - name: Build Bachelors Week 1 Slidev deck
@@ -67,6 +69,14 @@ jobs:
           --without-notes
           --base /classic-ml-course/bachelors/2026/week-02/slides/
           --out ${{ github.workspace }}/.pages/bachelors/2026/week-02/slides
+
+      - name: Build Bachelors Week 3 Slidev deck
+        working-directory: presentation
+        run: >-
+          pnpm exec slidev build decks/week-03.md
+          --without-notes
+          --base /classic-ml-course/bachelors/2026/week-03/slides/
+          --out ${{ github.workspace }}/.pages/bachelors/2026/week-03/slides
 
       - name: Build Masters Week 1 Slidev deck
         working-directory: presentation
