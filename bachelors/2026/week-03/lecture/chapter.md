@@ -2603,8 +2603,6 @@ L(y,\hat y)
 
 ## Что почитать дальше
 
-Этот раздел самодостаточен: ссылки ниже можно использовать независимо от списка источников выше.
-
 - **Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong — _Mathematics for Machine Learning_, Chapter 7 “Continuous Optimization”.** Бесплатная официальная версия: <https://mml-book.github.io/>. Полезно прочитать всю главу, если хочется глубже понять размер шага, выпуклость, геометрию градиентного спуска и более широкий язык численной оптимизации.
 - **Kevin P. Murphy — _Probabilistic Machine Learning: An Introduction_, Chapter 8 “Optimization”.** Официальная страница книги: <https://probml.github.io/pml-book/>. Это следующий уровень после нашего введения в градиентные и стохастические методы; там также появляется метод Ньютона и другие семейства оптимизаторов.
 - **Kevin P. Murphy — _Probabilistic Machine Learning: An Introduction_, §11.6 “Robust linear regression”.** Там сопоставляются Laplace likelihood, Student-t likelihood и функция Хубера. Раздел полезен, если хочется продолжить вероятностную линию робастной регрессии.
