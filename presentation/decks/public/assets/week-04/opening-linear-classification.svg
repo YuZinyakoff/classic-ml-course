@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="576pt" height="302.4pt" viewBox="0 0 576 302.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Week 4 deterministic plotting script</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 302.4
+L 576 302.4
+L 576 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 5.76 296.64
+L 570.24 296.64
+L 570.24 5.76
+L 5.76 5.76
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m4f5338b5fa" d="M 0 4.795832
+C 1.271869 4.795832 2.491818 4.290512 3.391165 3.391165
+C 4.290512 2.491818 4.795832 1.271869 4.795832 0
+C 4.795832 -1.271869 4.290512 -2.491818 3.391165 -3.391165
+C 2.491818 -4.290512 1.271869 -4.795832 0 -4.795832
+C -1.271869 -4.795832 -2.491818 -4.290512 -3.391165 -3.391165
+C -4.290512 -2.491818 -4.795832 -1.271869 -4.795832 0
+C -4.795832 1.271869 -4.290512 2.491818 -3.391165 3.391165
+C -2.491818 4.290512 -1.271869 4.795832 0 4.795832
+z
+" style="stroke: #ffffff; stroke-width: 1.2"/>
+    </defs>
+    <g clip-path="url(#p2e35488ad0)">
+     <use xlink:href="#m4f5338b5fa" x="41.790638" y="172.41" style="fill: #2864dc; stroke: #ffffff; stroke-width: 1.2"/>
+     <use xlink:href="#m4f5338b5fa" x="89.831489" y="233.01" style="fill: #2864dc; stroke: #ffffff; stroke-width: 1.2"/>
+     <use xlink:href="#m4f5338b5fa" x="149.882553" y="196.65" style="fill: #2864dc; stroke: #ffffff; stroke-width: 1.2"/>
+     <use xlink:href="#m4f5338b5fa" x="185.913191" y="263.31" style="fill: #2864dc; stroke: #ffffff; stroke-width: 1.2"/>
+     <use xlink:href="#m4f5338b5fa" x="233.954043" y="226.95" style="fill: #2864dc; stroke: #ffffff; stroke-width: 1.2"/>
+     <use xlink:href="#m4f5338b5fa" x="281.994894" y="275.43" style="fill: #2864dc; stroke: #ffffff; stroke-width: 1.2"/>
+     <use xlink:href="#m4f5338b5fa" x="306.015319" y="245.13" style="fill: #2864dc; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="m89ffbbdeed" d="M 0 -4.795832
+L -4.795832 4.795832
+L 4.795832 4.795832
+z
+" style="stroke: #ffffff; stroke-width: 1.2"/>
+    </defs>
+    <g clip-path="url(#p2e35488ad0)">
+     <use xlink:href="#m89ffbbdeed" x="233.954043" y="45.15" style="fill: #d97022; stroke: #ffffff; stroke-width: 1.2"/>
+     <use xlink:href="#m89ffbbdeed" x="294.005106" y="87.57" style="fill: #d97022; stroke: #ffffff; stroke-width: 1.2"/>
+     <use xlink:href="#m89ffbbdeed" x="342.045957" y="39.09" style="fill: #d97022; stroke: #ffffff; stroke-width: 1.2"/>
+     <use xlink:href="#m89ffbbdeed" x="390.086809" y="99.69" style="fill: #d97022; stroke: #ffffff; stroke-width: 1.2"/>
+     <use xlink:href="#m89ffbbdeed" x="438.12766" y="63.33" style="fill: #d97022; stroke: #ffffff; stroke-width: 1.2"/>
+     <use xlink:href="#m89ffbbdeed" x="498.178723" y="111.81" style="fill: #d97022; stroke: #ffffff; stroke-width: 1.2"/>
+     <use xlink:href="#m89ffbbdeed" x="534.209362" y="26.97" style="fill: #d97022; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="line2d_1">
+    <path d="M 5.76 61.815
+L 11.461818 63.68503
+L 17.163636 65.555061
+L 22.865455 67.425091
+L 28.567273 69.295121
+L 34.269091 71.165152
+L 39.970909 73.035182
+L 45.672727 74.905212
+L 51.374545 76.775242
+L 57.076364 78.645273
+L 62.778182 80.515303
+L 68.48 82.385333
+L 74.181818 84.255364
+L 79.883636 86.125394
+L 85.585455 87.995424
+L 91.287273 89.865455
+L 96.989091 91.735485
+L 102.690909 93.605515
+L 108.392727 95.475545
+L 114.094545 97.345576
+L 119.796364 99.215606
+L 125.498182 101.085636
+L 131.2 102.955667
+L 136.901818 104.825697
+L 142.603636 106.695727
+L 148.305455 108.565758
+L 154.007273 110.435788
+L 159.709091 112.305818
+L 165.410909 114.175848
+L 171.112727 116.045879
+L 176.814545 117.915909
+L 182.516364 119.785939
+L 188.218182 121.65597
+L 193.92 123.526
+L 199.621818 125.39603
+L 205.323636 127.266061
+L 211.025455 129.136091
+L 216.727273 131.006121
+L 222.429091 132.876152
+L 228.130909 134.746182
+L 233.832727 136.616212
+L 239.534545 138.486242
+L 245.236364 140.356273
+L 250.938182 142.226303
+L 256.64 144.096333
+L 262.341818 145.966364
+L 268.043636 147.836394
+L 273.745455 149.706424
+L 279.447273 151.576455
+L 285.149091 153.446485
+L 290.850909 155.316515
+L 296.552727 157.186545
+L 302.254545 159.056576
+L 307.956364 160.926606
+L 313.658182 162.796636
+L 319.36 164.666667
+L 325.061818 166.536697
+L 330.763636 168.406727
+L 336.465455 170.276758
+L 342.167273 172.146788
+L 347.869091 174.016818
+L 353.570909 175.886848
+L 359.272727 177.756879
+L 364.974545 179.626909
+L 370.676364 181.496939
+L 376.378182 183.36697
+L 382.08 185.237
+L 387.781818 187.10703
+L 393.483636 188.977061
+L 399.185455 190.847091
+L 404.887273 192.717121
+L 410.589091 194.587152
+L 416.290909 196.457182
+L 421.992727 198.327212
+L 427.694545 200.197242
+L 433.396364 202.067273
+L 439.098182 203.937303
+L 444.8 205.807333
+L 450.501818 207.677364
+L 456.203636 209.547394
+L 461.905455 211.417424
+L 467.607273 213.287455
+L 473.309091 215.157485
+L 479.010909 217.027515
+L 484.712727 218.897545
+L 490.414545 220.767576
+L 496.116364 222.637606
+L 501.818182 224.507636
+L 507.52 226.377667
+L 513.221818 228.247697
+L 518.923636 230.117727
+L 524.625455 231.987758
+L 530.327273 233.857788
+L 536.029091 235.727818
+L 541.730909 237.597848
+L 547.432727 239.467879
+L 553.134545 241.337909
+L 558.836364 243.207939
+L 564.538182 245.07797
+L 570.24 246.948
+" clip-path="url(#p2e35488ad0)" style="fill: none; stroke: #172033; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="legend_1">
+    <g id="PathCollection_3">
+     <g>
+      <use xlink:href="#m4f5338b5fa" x="28.56" y="22.528125" style="fill: #2864dc; stroke: #ffffff; stroke-width: 1.2"/>
+     </g>
+    </g>
+    <g id="text_1">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172033" x="50.16" y="25.678125" transform="rotate(-0 50.16 25.678125)">класс 0</text>
+    </g>
+    <g id="PathCollection_4">
+     <g>
+      <use xlink:href="#m89ffbbdeed" x="133.078125" y="22.528125" style="fill: #d97022; stroke: #ffffff; stroke-width: 1.2"/>
+     </g>
+    </g>
+    <g id="text_2">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172033" x="154.678125" y="25.678125" transform="rotate(-0 154.678125 25.678125)">класс 1</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2e35488ad0">
+   <rect x="5.76" y="5.76" width="564.48" height="290.88"/>
+  </clipPath>
+ </defs>
+</svg>
