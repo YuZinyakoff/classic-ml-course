@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="837.36pt" height="182.16pt" viewBox="0 0 837.36 182.16" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-13T23:01:35.632892</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 182.16
+L 837.36 182.16
+L 837.36 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 35.126166 148.78464
+L 141.207102 148.78464
+Q 157.040078 148.78464 157.040078 144.61824
+L 157.040078 45.87456
+Q 157.040078 41.70816 141.207102 41.70816
+L 35.126166 41.70816
+Q 19.29319 41.70816 19.29319 45.87456
+L 19.29319 144.61824
+Q 19.29319 148.78464 35.126166 148.78464
+z
+" clip-path="url(#pdd8ae35f0f)" style="fill: #dce9f4; stroke: #305f8c; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 201.37241 148.78464
+L 307.453346 148.78464
+Q 323.286322 148.78464 323.286322 144.61824
+L 323.286322 45.87456
+Q 323.286322 41.70816 307.453346 41.70816
+L 201.37241 41.70816
+Q 185.539434 41.70816 185.539434 45.87456
+L 185.539434 144.61824
+Q 185.539434 148.78464 201.37241 148.78464
+z
+" clip-path="url(#pdd8ae35f0f)" style="fill: #dce9f4; stroke: #305f8c; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 367.618654 148.78464
+L 473.69959 148.78464
+Q 489.532566 148.78464 489.532566 144.61824
+L 489.532566 45.87456
+Q 489.532566 41.70816 473.69959 41.70816
+L 367.618654 41.70816
+Q 351.785678 41.70816 351.785678 45.87456
+L 351.785678 144.61824
+Q 351.785678 148.78464 367.618654 148.78464
+z
+" clip-path="url(#pdd8ae35f0f)" style="fill: #e0ede6; stroke: #305f8c; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 533.864898 148.78464
+L 639.945834 148.78464
+Q 655.77881 148.78464 655.77881 144.61824
+L 655.77881 45.87456
+Q 655.77881 41.70816 639.945834 41.70816
+L 533.864898 41.70816
+Q 518.031922 41.70816 518.031922 45.87456
+L 518.031922 144.61824
+Q 518.031922 148.78464 533.864898 148.78464
+z
+" clip-path="url(#pdd8ae35f0f)" style="fill: #dce9f4; stroke: #305f8c; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 700.111141 148.78464
+L 806.192078 148.78464
+Q 822.025054 148.78464 822.025054 144.61824
+L 822.025054 45.87456
+Q 822.025054 41.70816 806.192078 41.70816
+L 700.111141 41.70816
+Q 684.278166 41.70816 684.278166 45.87456
+L 684.278166 144.61824
+Q 684.278166 148.78464 700.111141 148.78464
+z
+" clip-path="url(#pdd8ae35f0f)" style="fill: #f7e2d2; stroke: #cc6a37; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #24394e" transform="translate(56.384603 91.263081)">Данные для</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #24394e" transform="translate(57.706478 102.665269)">разработки</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 160.624337 96.288
+Q 172.082788 96.288 181.864188 96.288
+" style="fill: none; stroke: #66717c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 177.464188 94.088
+L 181.864188 96.288
+L 177.464188 98.488
+" style="fill: none; stroke: #66717c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #24394e" transform="translate(231.971472 91.365269)">K-fold CV</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #24394e" transform="translate(227.112097 102.563081)">по сетке λ</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 326.870581 96.288
+Q 338.329032 96.288 348.110431 96.288
+" style="fill: none; stroke: #66717c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 343.710431 94.088
+L 348.110431 96.288
+L 343.710431 98.488
+" style="fill: none; stroke: #66717c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #24394e" transform="translate(391.285684 91.450425)">Выбранное</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #24394e" transform="translate(391.494278 102.648237)">значение λ</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 493.116825 96.288
+Q 504.575276 96.288 514.356675 96.288
+" style="fill: none; stroke: #66717c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 509.956675 94.088
+L 514.356675 96.288
+L 509.956675 98.488
+" style="fill: none; stroke: #66717c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #24394e" transform="translate(549.97021 91.365269)">Новая модель</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #24394e" transform="translate(556.452241 102.563081)">на всех dev</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 659.363069 96.288
+Q 670.82152 96.288 680.602919 96.288
+" style="fill: none; stroke: #66717c; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 676.202919 94.088
+L 680.602919 96.288
+L 676.202919 98.488
+" style="fill: none; stroke: #66717c; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #24394e" transform="translate(727.07036 91.365269)">Один раз:</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #24394e" transform="translate(711.49536 102.563081)">финальный test</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pdd8ae35f0f">
+   <rect x="12.96" y="12.96" width="811.44" height="156.24"/>
+  </clipPath>
+ </defs>
+</svg>

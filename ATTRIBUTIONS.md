@@ -53,9 +53,12 @@
   бинарная целевая переменная записана в столбце `Class` текстовыми метками.
 - **Дата проверки условий:** 2026-10-08.
 
-## Breast Cancer Wisconsin (Diagnostic) — Week 5
+## Breast Cancer Wisconsin (Diagnostic) — Weeks 5 и 6
 
 - **Материал:** `bachelors/2026/week-05/seminar/case_data/A1_breast_cancer.csv`.
+- **Материал Week 6:** `bachelors/2026/week-06/seminar/seminar.ipynb`.
+  Набор используется через `sklearn.datasets.load_breast_cancer`;
+  отдельный CSV не включён. В notebook сохранены учебные результаты.
 - **Авторы:** W. Wolberg, O. Mangasarian, N. Street, W. Street.
 - **Источник:** <https://archive.ics.uci.edu/dataset/17/breast-cancer-wisconsin-diagnostic>.
 - **DOI:** <https://doi.org/10.24432/C5DW2B>.
