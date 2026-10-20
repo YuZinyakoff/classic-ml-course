@@ -18,6 +18,8 @@
 
 - **Материал:** `bachelors/2026/week-01/seminar/data/bank-week01.csv`
 - **Материал Week 5:** `bachelors/2026/week-05/seminar/case_data/A2_bank_marketing.csv`.
+- **Материал магистерской Week 3:** `masters/2026/week-03/seminar/case_data/A2_bank_marketing.csv`.
+  Та же учебная таблица, без изменений.
   Подготовленная учебная таблица с идентификаторами, целевыми метками
   и оценками модели; исходные признаки в этот CSV не включены.
   Условия для этого использования повторно проверены 2026-10-08.
@@ -45,6 +47,8 @@
 ## Blood Transfusion Service Center — Week 5
 
 - **Материал:** `bachelors/2026/week-05/seminar/blood_transfusion.csv`.
+- **Материал магистерской Week 3:** `masters/2026/week-03/seminar/blood_transfusion.csv`.
+  Та же учебная таблица, без изменений.
 - **Автор:** I-Cheng Yeh.
 - **Источник:** <https://archive.ics.uci.edu/dataset/176/blood-transfusion-service-center>.
 - **DOI:** <https://doi.org/10.24432/C5GS39>.
@@ -56,6 +60,8 @@
 ## Breast Cancer Wisconsin (Diagnostic) — Weeks 5 и 6
 
 - **Материал:** `bachelors/2026/week-05/seminar/case_data/A1_breast_cancer.csv`.
+- **Материал магистерской Week 3:** `masters/2026/week-03/seminar/case_data/A1_breast_cancer.csv`.
+  Та же учебная таблица, без изменений.
 - **Материал Week 6:** `bachelors/2026/week-06/seminar/seminar.ipynb`.
   Набор используется через `sklearn.datasets.load_breast_cancer`;
   отдельный CSV не включён. В notebook сохранены учебные результаты.
@@ -70,6 +76,8 @@
 ## Spambase — Week 5
 
 - **Материал:** `bachelors/2026/week-05/seminar/case_data/A3_spambase.csv`.
+- **Материал магистерской Week 3:** `masters/2026/week-03/seminar/case_data/A3_spambase.csv`.
+  Та же учебная таблица, без изменений.
 - **Авторы:** M. Hopkins, E. Reeber, G. Forman, J. Suermondt.
 - **Источник:** <https://archive.ics.uci.edu/dataset/94/spambase>.
 - **DOI:** <https://doi.org/10.24432/C53G6X>.
@@ -81,6 +89,8 @@
 ## MAGIC Gamma Telescope — Week 5
 
 - **Материал:** `bachelors/2026/week-05/seminar/case_data/B1_magic_gamma.csv`.
+- **Материал магистерской Week 3:** `masters/2026/week-03/seminar/case_data/B1_magic_gamma.csv`.
+  Та же учебная таблица, без изменений.
 - **Автор:** R. Bock.
 - **Источник:** <https://archive.ics.uci.edu/dataset/159/magic-gamma-telescope>.
 - **DOI:** <https://doi.org/10.24432/C52C8B>.
@@ -92,6 +102,8 @@
 ## HTRU2 — Week 5
 
 - **Материал:** `bachelors/2026/week-05/seminar/case_data/B2_htru2.csv`.
+- **Материал магистерской Week 3:** `masters/2026/week-03/seminar/case_data/B2_htru2.csv`.
+  Та же учебная таблица, без изменений.
 - **Автор:** Robert Lyon.
 - **Источник:** <https://archive.ics.uci.edu/dataset/372/htru2>.
 - **DOI:** <https://doi.org/10.24432/C5DK6R>.
@@ -103,6 +115,8 @@
 ## Online Shoppers Purchasing Intention — Week 5
 
 - **Материал:** `bachelors/2026/week-05/seminar/case_data/B3_C2_online_shoppers.csv`.
+- **Материал магистерской Week 3:** `masters/2026/week-03/seminar/case_data/B3_C2_online_shoppers.csv`.
+  Та же учебная таблица, без изменений.
 - **Авторы:** C. Sakar, Y. Kastro.
 - **Источник:** <https://archive.ics.uci.edu/dataset/468/online-shoppers-purchasing-intention-dataset>.
 - **DOI:** <https://doi.org/10.24432/C5F88Q>.
@@ -115,6 +129,8 @@
 ## Default of Credit Card Clients — Week 5
 
 - **Материал:** `bachelors/2026/week-05/seminar/case_data/C1_credit_default.csv`.
+- **Материал магистерской Week 3:** `masters/2026/week-03/seminar/case_data/C1_credit_default.csv`.
+  Та же учебная таблица, без изменений.
 - **Автор:** I-Cheng Yeh.
 - **Источник:** <https://archive.ics.uci.edu/dataset/350/default-of-credit-card-clients>.
 - **DOI:** <https://doi.org/10.24432/C55S3H>.
@@ -126,6 +142,8 @@
 ## Occupancy Detection — Week 5
 
 - **Материал:** `bachelors/2026/week-05/seminar/case_data/C3_occupancy.csv`.
+- **Материал магистерской Week 3:** `masters/2026/week-03/seminar/case_data/C3_occupancy.csv`.
+  Та же учебная таблица, без изменений.
 - **Автор:** Luis Candanedo.
 - **Источник:** <https://archive.ics.uci.edu/dataset/357/occupancy-detection>.
 - **DOI:** <https://doi.org/10.24432/C5X01N>.
