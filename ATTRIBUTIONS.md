@@ -154,8 +154,8 @@
 
 ## Palmer Penguins, Wine и ресурсы семинара — Week 7
 
-- **Материалы:** `bachelors/2026/week-07/seminar/` — студенческие notebook и HTML,
-  `penguins.csv`, три иллюстрации и локальный MathJax.
+- **Материалы:** `bachelors/2026/week-07/seminar/` — студенческий
+  `seminar.ipynb`, `penguins.csv` и три иллюстрации.
 - **Данные Palmer Penguins:** Allison Horst, Alison Hill и Kristen Gorman;
   сбор наблюдений — Kristen Gorman и Palmer Station LTER. [Официальный
   источник](https://allisonhorst.github.io/palmerpenguins/),
@@ -165,14 +165,14 @@
 - **Иллюстрации видов и измерений клюва:** Allison Horst — Artwork by
   @allison_horst. Не изменены; [разрешение на учебное использование с
   атрибуцией](https://allisonhorst.github.io/palmerpenguins/articles/art.html).
-  Подписи сохранены в notebook и HTML. Дополнительная иллюстрация видов
-  создана для учебного комплекта генеративной моделью.
+  Подписи сохранены непосредственно в notebook.
+  `assets/lter_penguins.png` — [оригинал рисунка видов](https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png);
+  `assets/culmen_depth.png` — [оригинал рисунка измерений](https://allisonhorst.github.io/palmerpenguins/reference/figures/culmen_depth.png).
+  Дополнительный `assets/penguin_species_illustration.png` создан для
+  учебного комплекта генеративной моделью.
 - **Wine:** Stefan Aeberhard и M. Forina (1992), [UCI,
   DOI 10.24432/C5PC7J](https://doi.org/10.24432/C5PC7J),
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
   Используется локально встроенный `sklearn.datasets.load_wine`, два признака;
   отдельный CSV Wine не распространяется.
-- **MathJax 2.7.9:** The MathJax Consortium, Apache 2.0; STIX-Web —
-  SIL Open Font License 1.1. Copyright notices и тексты лицензий включены.
-- **Полный реестр:** [семинарский ATTRIBUTIONS.md](bachelors/2026/week-07/seminar/ATTRIBUTIONS.md).
 - **Дата проверки:** 2026-10-22.
