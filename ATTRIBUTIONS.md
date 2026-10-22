@@ -151,3 +151,28 @@
 - **Изменения:** подготовлена учебная таблица с идентификаторами, целевыми
   метками и оценками модели; исходные признаки в CSV не включены.
 - **Дата проверки условий:** 2026-10-08.
+
+## Palmer Penguins, Wine и ресурсы семинара — Week 7
+
+- **Материалы:** `bachelors/2026/week-07/seminar/` — студенческие notebook и HTML,
+  `penguins.csv`, три иллюстрации и локальный MathJax.
+- **Данные Palmer Penguins:** Allison Horst, Alison Hill и Kristen Gorman;
+  сбор наблюдений — Kristen Gorman и Palmer Station LTER. [Официальный
+  источник](https://allisonhorst.github.io/palmerpenguins/),
+  [CC0 1.0](https://github.com/allisonhorst/palmerpenguins/blob/main/LICENSE.md).
+  Локальный CSV содержит 344 наблюдения и 8 столбцов; значения сверены
+  с официальным CSV, без изменения наблюдений.
+- **Иллюстрации видов и измерений клюва:** Allison Horst — Artwork by
+  @allison_horst. Не изменены; [разрешение на учебное использование с
+  атрибуцией](https://allisonhorst.github.io/palmerpenguins/articles/art.html).
+  Подписи сохранены в notebook и HTML. Дополнительная иллюстрация видов
+  создана для учебного комплекта генеративной моделью.
+- **Wine:** Stefan Aeberhard и M. Forina (1992), [UCI,
+  DOI 10.24432/C5PC7J](https://doi.org/10.24432/C5PC7J),
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+  Используется локально встроенный `sklearn.datasets.load_wine`, два признака;
+  отдельный CSV Wine не распространяется.
+- **MathJax 2.7.9:** The MathJax Consortium, Apache 2.0; STIX-Web —
+  SIL Open Font License 1.1. Copyright notices и тексты лицензий включены.
+- **Полный реестр:** [семинарский ATTRIBUTIONS.md](bachelors/2026/week-07/seminar/ATTRIBUTIONS.md).
+- **Дата проверки:** 2026-10-22.
