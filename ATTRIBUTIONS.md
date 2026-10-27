@@ -154,6 +154,14 @@
 
 ## Palmer Penguins, Wine и ресурсы семинара — Week 7
 
+- **Материалы магистерской Week 4:** `masters/2026/week-04/seminar/seminar.ipynb`,
+  `data/penguins.csv`, `assets/lter_penguins.png` и `assets/culmen_depth.png`
+  внутри этой папки семинара. Тот же CSV и два оригинальных рисунка Allison
+  Horst, без изменений. Атрибуция сохранена под рисунками; разрешение на
+  использование при преподавании Palmer Penguins повторно проверено 27.10.2026.
+  Wine и дополнительная AI-иллюстрация в магистерском семинаре не используются.
+
+
 - **Материалы:** `bachelors/2026/week-07/seminar/` — студенческий
   `seminar.ipynb`, `penguins.csv` и три иллюстрации.
 - **Данные Palmer Penguins:** Allison Horst, Alison Hill и Kristen Gorman;
@@ -176,3 +184,11 @@
   Используется локально встроенный `sklearn.datasets.load_wine`, два признака;
   отдельный CSV Wine не распространяется.
 - **Дата проверки:** 2026-10-22.
+
+## Авторские материалы магистерской Week 4
+
+- `masters/2026/week-04/lecture/assets/` и визуализации Slidev — авторские
+  схемы курса, повторно использованные из бакалаврских Weeks 6–7.
+- `masters/2026/week-04/seminar/data/apartment_rent_data.csv` — авторский
+  синтетический учебный набор Week 6, 160 квартир и 13 столбцов; значения не
+  изменены. Это условные объявления, не реальные персональные данные.
