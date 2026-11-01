@@ -173,6 +173,12 @@
 
 ## Если хочется понять, как модель становится системой
 
+- [Rules of Machine Learning — Martin Zinkevich, Google](https://developers.google.com/machine-learning/guides/rules-of-ml?hl=en)
+  — бесплатное руководство по практической разработке ML-систем: выбор метрик,
+  простые базовые модели, создание признаков, анализ ошибок и согласованность
+  обработки данных при обучении и применении модели. Подходит для знакомства
+  с инженерной стороной машинного обучения.
+
 - [Machine Learning System Design — Valerii Babushkin and Arseny Kravchenko](https://www.manning.com/books/machine-learning-system-design) /
   [«Машинное обучение: проектирование систем от идеи до реализации»](http://piter.com/collection/recommend/product/mashinnoe-obuchenie-proektirovanie-sistem-ot-idei-do-realizatsii)
   — английский оригинал и русский перевод книги о пути от идеи и требований к
