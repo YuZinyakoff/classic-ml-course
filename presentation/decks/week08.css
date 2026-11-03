@@ -1,0 +1,101 @@
+/* Только Week 8. Общий runtime и стили принятых недель не меняются. */
+.slidev-layout:has(.w8-header) { padding: 20px 64px 54px; }
+.w8-header .w8-service { display:flex; justify-content:space-between; color:#748297; font-size:15px; line-height:22px; letter-spacing:.07em; text-transform:uppercase; }
+.w8-header .w8-section { margin-top:13px; color:#2864dc; font-size:23px; line-height:30px; font-weight:650; }
+.w8-header h1 { margin:8px 0 0; font-size:42px; line-height:1.14; font-weight:550; letter-spacing:-.025em; }
+.w8-header-cover h1 { font-size:58px; }
+.w8-header + .w8-body { margin-top:16px; height:470px; }
+.w8-three { display:grid; grid-template-columns:repeat(3,1fr); gap:30px; align-items:start; }
+.w8-three > div { min-width:0; }
+.w8-subtitle { font-size:28px; font-weight:600; line-height:1.3; }
+.w8-arrow { font-size:40px; text-align:center; color:#2864dc; }
+.w8-compact .w8-text { font-size:25px; }
+.w8-compact .w8-stack { gap:17px; }
+.w8-final { display:grid; grid-template-columns:270px 34px 300px 34px 1fr; align-items:center; gap:12px; }
+.w8-final .w8-visual { max-height:320px; }
+.w8-scheme .w8-visual { max-height:230px; }
+.w8-nan .w8-visual { max-height:310px; }
+.w8-loop { border-top:2px solid #9bb9e7; padding:14px 20px; display:flex; gap:24px; align-items:center; justify-content:center; font-size:26px; color:#244e8b; }
+.w8-body { height: 482px; display: flex; flex-direction: column; justify-content: center; gap: 22px; color: #172033; }
+.w8-body p { margin: 0; opacity: 1 !important; }
+.w8-body .deck-math { font-size: 29px; }
+.w8-body .katex-display { margin: .35em 0; }
+.w8-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; align-items: center; }
+.w8-grid > * { min-width: 0; }
+.w8-grid .w8-visual { display: block; }
+.w8-pair .w8-visual { max-height: 316px; }
+.w8-pair .w8-visual .w8-label { font-size: 25px; }
+.w8-pair .w8-text { margin-bottom: 10px; }
+.w8-table.w8-table-compact td, .w8-table.w8-table-compact th { padding: 8px 12px; text-align: center; }
+.w8-stack { display: flex; flex-direction: column; gap: 18px; }
+.w8-text { font-size: 27px; line-height: 1.38; }
+.w8-small { font-size: 23px; line-height: 1.35; }
+.w8-note { font-size: 22px; line-height: 1.35; color: #526277; }
+.w8-question { font-size: 36px; line-height: 1.3; font-weight: 600; }
+.w8-result { border-left: 5px solid #2864dc; padding: 11px 20px; background: #f3f7fd; font-size: 27px; line-height: 1.35; }
+.w8-formula { font-size: 35px !important; }
+.w8-table { width: 100%; border-collapse: collapse; font-size: 25px; line-height: 1.25; }
+.w8-table th { font-weight: 650; color: #35465e; background: #f1f5fa; }
+.w8-table th, .w8-table td { padding: 12px 17px; border-bottom: 1px solid #d9e2ec; text-align: left; }
+.w8-table tr.w8-win td { background: #edf7f1; font-weight: 650; }
+.w8-green { color: #17845f; font-weight: 650; }
+.w8-orange { color: #d97022; font-weight: 650; }
+.w8-blue { color: #2864dc; font-weight: 650; }
+.w8-code { font-family: 'Cascadia Code',Consolas,monospace; font-size: 23px; }
+.w8-flow { display: flex; align-items: center; justify-content: space-between; gap: 20px; font-size: 27px; }
+.w8-flow > div { flex: 1; border-top: 3px solid #2864dc; padding: 15px 8px; text-align: center; }
+.w8-flow > b { color: #2864dc; }
+.w8-visual { width: 100%; max-height: 350px; overflow: visible; }
+.w8-scale .w8-visual { max-height:278px; }
+.w8-visual text { font-family: 'Segoe UI',Arial,sans-serif; fill: #172033; }
+.w8-visual .w8-muted { fill: #66758b; }
+.w8-visual .w8-axis { stroke: #526277; stroke-width: 2; fill: none; }
+.w8-visual .w8-gridline { stroke: #dce4ee; stroke-width: 1; }
+.w8-visual .w8-cut { stroke: #2864dc; stroke-width: 3; stroke-dasharray: 8 6; }
+.w8-visual .w8-label { font-size: 23px; }
+.w8-visual .w8-big { font-size: 27px; font-weight: 650; }
+.w8-visual .w8-link { stroke: #b5c3d5; stroke-width: 3; fill: none; }
+.w8-visual .w8-active { stroke: #2864dc; stroke-width: 5; }
+.w8-visual .w8-node { fill: white; stroke: #8ca1bc; stroke-width: 2; }
+.w8-visual .w8-zero { fill: #17845f; stroke: white; stroke-width: 1.2; }
+.w8-visual .w8-one { fill: #d97022; stroke: white; stroke-width: 1.2; }
+.w8-visual .w8-halo { fill: none; stroke: #2864dc; stroke-width: 3; }
+.w8-cover { padding-top: 22px; }
+.w8-cover .deck-title { font-size: 60px; margin: 33px 0; }
+.w8-cover .w8-text { max-width: 850px; }
+@media print { .w8-visual { break-inside: avoid; } }
+
+/* Адресные композиции V3; принятые экраны используют прежние правила. */
+.w8-bullets { margin:0; padding-left:28px; }
+.w8-bullets li + li { margin-top:12px; }
+.w8-entropy-examples .w8-visual { max-height:130px; }
+.w8-entropy-examples .w8-stack { gap:12px; }
+.w8-conclusions { margin:0; padding-left:30px; font-size:27px; line-height:1.4; }
+.w8-conclusions li + li { margin-top:22px; }
+.w8-leaf-change { gap:18px; }
+.w8-leaf-change .w8-stack { gap:12px; }
+.w8-leaf-change .w8-visual { max-height:280px; }
+
+/* Только новые сцены энтропии. Прежние композиции не затрагиваются. */
+.w8-entropy-message { display:grid; grid-template-columns:1fr 280px 1fr; gap:25px; align-items:center; }
+.w8-entropy-role { border:2px solid #a5b9d4; border-radius:8px; padding:20px; display:flex; flex-direction:column; gap:15px; font-size:26px; line-height:1.35; }
+.w8-entropy-channel { text-align:center; font-size:25px; line-height:1.4; }
+.w8-entropy-symbol { font-size:34px; font-weight:650; color:#2864dc; }
+.w8-entropy-bitcase { display:flex; gap:25px; flex-wrap:wrap; align-items:center; justify-content:center; font-size:30px; padding:30px 10px; }
+.w8-entropy-bitcase code { font-size:48px; padding:8px 22px; background:#edf3ff; }
+.w8-entropy-tokens { display:flex; gap:20px; justify-content:center; }
+.w8-entropy-tokens span { width:64px; height:64px; display:grid; place-items:center; border:2px solid #829dc4; background:#edf3ff; border-radius:6px; font-size:30px; }
+.w8-code-link { stroke:#9fb0c8; stroke-width:3; fill:none; }
+.w8-code-link.w8-code-follow { stroke:#2864dc; stroke-width:6; }
+.w8-code-lengths { max-height:250px; }
+.w8-body.w8-entropy-tight { gap:12px; }
+.w8-entropy-shape .w8-stack { gap:12px; }
+
+/* Live-редакция: только новая схема S41 и уточнение смены масштаба. */
+.w8-binary-scheme { width:100%; display:flex; flex-direction:column; gap:16px; }
+.w8-binary-row { display:grid; grid-template-columns:365px 1fr 270px; gap:20px; align-items:center; height:88px; }
+.w8-binary-options { display:flex; gap:6px; align-items:center; justify-content:center; }
+.w8-binary-options span { width:38px; height:44px; display:grid; place-items:center; border:2px solid #7b9acc; border-radius:6px; background:#f3f7fd; font-size:27px; font-weight:600; }
+.w8-binary-question { display:flex; align-items:center; justify-content:space-between; font-size:26px; line-height:1.4; }
+.w8-binary-question > div { text-align:center; }
+.w8-body.w8-live-scale { gap:12px; }

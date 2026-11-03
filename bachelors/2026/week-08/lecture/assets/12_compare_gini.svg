@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="790.38pt" height="264.312pt" viewBox="0 0 790.38 264.312" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-29T14:28:54.383082</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 264.312
+L 790.38 264.312
+L 790.38 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 21.614264 184.363848
+L 184.602906 184.363848
+Q 189.290632 184.363848 189.290632 181.264752
+L 189.290632 56.824128
+Q 189.290632 53.725032 184.602906 53.725032
+L 21.614264 53.725032
+Q 16.926538 53.725032 16.926538 56.824128
+L 16.926538 181.264752
+Q 16.926538 184.363848 21.614264 184.363848
+z
+" clip-path="url(#p55a9edf708)" style="fill: #ffffff; stroke: #bfcbd8; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 201.911434 184.363848
+L 364.900075 184.363848
+Q 369.587802 184.363848 369.587802 181.264752
+L 369.587802 56.824128
+Q 369.587802 53.725032 364.900075 53.725032
+L 201.911434 53.725032
+Q 197.223708 53.725032 197.223708 56.824128
+L 197.223708 181.264752
+Q 197.223708 184.363848 201.911434 184.363848
+z
+" clip-path="url(#p55a9edf708)" style="fill: #ffffff; stroke: #bfcbd8; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #23344d" x="193.25717" y="29.018663" transform="rotate(-0 193.25717 29.018663)">A. x₂ ≤ 1.5</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #23344d" x="103.108585" y="78.095436" transform="rotate(-0 103.108585 78.095436)">Левый узел</text>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m06e7618b5b" d="M 0 5.123475
+C 1.358762 5.123475 2.662055 4.583634 3.622844 3.622844
+C 4.583634 2.662055 5.123475 1.358762 5.123475 0
+C 5.123475 -1.358762 4.583634 -2.662055 3.622844 -3.622844
+C 2.662055 -4.583634 1.358762 -5.123475 0 -5.123475
+C -1.358762 -5.123475 -2.662055 -4.583634 -3.622844 -3.622844
+C -4.583634 -2.662055 -5.123475 -1.358762 -5.123475 0
+C -5.123475 1.358762 -4.583634 2.662055 -3.622844 3.622844
+C -2.662055 4.583634 -1.358762 5.123475 0 5.123475
+z
+" style="stroke: #ffffff; stroke-width: 0.6"/>
+    </defs>
+    <g clip-path="url(#p55a9edf708)">
+     <use xlink:href="#m06e7618b5b" x="80.932033" y="125.361828" style="fill: #0d9488; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <g clip-path="url(#p55a9edf708)">
+     <use xlink:href="#m06e7618b5b" x="95.716401" y="125.361828" style="fill: #0d9488; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#p55a9edf708)">
+     <use xlink:href="#m06e7618b5b" x="110.500769" y="125.361828" style="fill: #0d9488; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_4">
+    <g clip-path="url(#p55a9edf708)">
+     <use xlink:href="#m06e7618b5b" x="125.285137" y="125.361828" style="fill: #0d9488; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #23344d" x="103.108585" y="167.73069" transform="rotate(-0 103.108585 167.73069)">4 класса 0  ·  0 класса 1</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #23344d" x="283.405755" y="78.095436" transform="rotate(-0 283.405755 78.095436)">Правый узел</text>
+   </g>
+   <g id="PathCollection_5">
+    <g clip-path="url(#p55a9edf708)">
+     <use xlink:href="#m06e7618b5b" x="246.444835" y="125.361828" style="fill: #0d9488; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_6">
+    <g clip-path="url(#p55a9edf708)">
+     <use xlink:href="#m06e7618b5b" x="261.229203" y="125.361828" style="fill: #0d9488; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_7">
+    <g clip-path="url(#p55a9edf708)">
+     <use xlink:href="#m06e7618b5b" x="276.013571" y="125.361828" style="fill: #0d9488; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_8">
+    <g clip-path="url(#p55a9edf708)">
+     <use xlink:href="#m06e7618b5b" x="290.797939" y="125.361828" style="fill: #0d9488; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_9">
+    <defs>
+     <path id="m707ca641c5" d="M 0 5.123475
+C 1.358762 5.123475 2.662055 4.583634 3.622844 3.622844
+C 4.583634 2.662055 5.123475 1.358762 5.123475 0
+C 5.123475 -1.358762 4.583634 -2.662055 3.622844 -3.622844
+C 2.662055 -4.583634 1.358762 -5.123475 0 -5.123475
+C -1.358762 -5.123475 -2.662055 -4.583634 -3.622844 -3.622844
+C -4.583634 -2.662055 -5.123475 -1.358762 -5.123475 0
+C -5.123475 1.358762 -4.583634 2.662055 -3.622844 3.622844
+C -2.662055 4.583634 -1.358762 5.123475 0 5.123475
+z
+" style="stroke: #ffffff; stroke-width: 0.6"/>
+    </defs>
+    <g clip-path="url(#p55a9edf708)">
+     <use xlink:href="#m707ca641c5" x="305.582307" y="125.361828" style="fill: #de7b25; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_10">
+    <g clip-path="url(#p55a9edf708)">
+     <use xlink:href="#m707ca641c5" x="320.366675" y="125.361828" style="fill: #de7b25; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_11">
+    <g clip-path="url(#p55a9edf708)">
+     <use xlink:href="#m707ca641c5" x="246.444835" y="146.817108" style="fill: #de7b25; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_12">
+    <g clip-path="url(#p55a9edf708)">
+     <use xlink:href="#m707ca641c5" x="261.229203" y="146.817108" style="fill: #de7b25; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #23344d" x="283.405755" y="167.73069" transform="rotate(-0 283.405755 167.73069)">4 класса 0  ·  4 класса 1</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #23344d" x="103.108585" y="194.13792" transform="rotate(-0 103.108585 194.13792)">вес 4/12 · G = 0</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #23344d" x="283.405755" y="194.13792" transform="rotate(-0 283.405755 194.13792)">вес 8/12 · G = 1/2</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 12.3px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #23344d" x="193.25717" y="216.78516" transform="rotate(-0 193.25717 216.78516)">G после = 1/3</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #2a61be" x="193.25717" y="241.81632" transform="rotate(-0 193.25717 241.81632)">Уменьшение G: 1/9 ≈ 0.111</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_4">
+    <path d="M 425.479925 184.363848
+L 588.468566 184.363848
+Q 593.156292 184.363848 593.156292 181.264752
+L 593.156292 56.824128
+Q 593.156292 53.725032 588.468566 53.725032
+L 425.479925 53.725032
+Q 420.792198 53.725032 420.792198 56.824128
+L 420.792198 181.264752
+Q 420.792198 184.363848 425.479925 184.363848
+z
+" clip-path="url(#p7923966425)" style="fill: #ffffff; stroke: #bfcbd8; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 605.777094 184.363848
+L 768.765736 184.363848
+Q 773.453462 184.363848 773.453462 181.264752
+L 773.453462 56.824128
+Q 773.453462 53.725032 768.765736 53.725032
+L 605.777094 53.725032
+Q 601.089368 53.725032 601.089368 56.824128
+L 601.089368 181.264752
+Q 601.089368 184.363848 605.777094 184.363848
+z
+" clip-path="url(#p7923966425)" style="fill: #ffffff; stroke: #bfcbd8; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #23344d" x="597.12283" y="29.018663" transform="rotate(-0 597.12283 29.018663)">B. x₁ ≤ 2.5</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #23344d" x="506.974245" y="78.095436" transform="rotate(-0 506.974245 78.095436)">Левый узел</text>
+   </g>
+   <g id="PathCollection_13">
+    <g clip-path="url(#p7923966425)">
+     <use xlink:href="#m06e7618b5b" x="470.013325" y="125.361828" style="fill: #0d9488; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_14">
+    <g clip-path="url(#p7923966425)">
+     <use xlink:href="#m06e7618b5b" x="484.797693" y="125.361828" style="fill: #0d9488; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_15">
+    <g clip-path="url(#p7923966425)">
+     <use xlink:href="#m06e7618b5b" x="499.582061" y="125.361828" style="fill: #0d9488; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_16">
+    <g clip-path="url(#p7923966425)">
+     <use xlink:href="#m06e7618b5b" x="514.366429" y="125.361828" style="fill: #0d9488; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_17">
+    <g clip-path="url(#p7923966425)">
+     <use xlink:href="#m06e7618b5b" x="529.150797" y="125.361828" style="fill: #0d9488; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_18">
+    <g clip-path="url(#p7923966425)">
+     <use xlink:href="#m06e7618b5b" x="543.935165" y="125.361828" style="fill: #0d9488; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #23344d" x="506.974245" y="167.73069" transform="rotate(-0 506.974245 167.73069)">6 класса 0  ·  0 класса 1</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #23344d" x="687.271415" y="78.095436" transform="rotate(-0 687.271415 78.095436)">Правый узел</text>
+   </g>
+   <g id="PathCollection_19">
+    <g clip-path="url(#p7923966425)">
+     <use xlink:href="#m06e7618b5b" x="650.310495" y="125.361828" style="fill: #0d9488; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_20">
+    <g clip-path="url(#p7923966425)">
+     <use xlink:href="#m06e7618b5b" x="665.094863" y="125.361828" style="fill: #0d9488; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_21">
+    <g clip-path="url(#p7923966425)">
+     <use xlink:href="#m707ca641c5" x="679.879231" y="125.361828" style="fill: #de7b25; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_22">
+    <g clip-path="url(#p7923966425)">
+     <use xlink:href="#m707ca641c5" x="694.663599" y="125.361828" style="fill: #de7b25; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_23">
+    <g clip-path="url(#p7923966425)">
+     <use xlink:href="#m707ca641c5" x="709.447967" y="125.361828" style="fill: #de7b25; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="PathCollection_24">
+    <g clip-path="url(#p7923966425)">
+     <use xlink:href="#m707ca641c5" x="724.232335" y="125.361828" style="fill: #de7b25; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9.7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #23344d" x="687.271415" y="167.73069" transform="rotate(-0 687.271415 167.73069)">2 класса 0  ·  4 класса 1</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #23344d" x="506.974245" y="194.13792" transform="rotate(-0 506.974245 194.13792)">вес 6/12 · G = 0</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #23344d" x="687.271415" y="194.13792" transform="rotate(-0 687.271415 194.13792)">вес 6/12 · G = 4/9</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 12.3px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #23344d" x="597.12283" y="216.78516" transform="rotate(-0 597.12283 216.78516)">G после = 2/9</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 12.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #2a61be" x="597.12283" y="241.81632" transform="rotate(-0 597.12283 241.81632)">Уменьшение G: 2/9 ≈ 0.222</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p55a9edf708">
+   <rect x="12.96" y="12.96" width="360.59434" height="238.392"/>
+  </clipPath>
+  <clipPath id="p7923966425">
+   <rect x="416.82566" y="12.96" width="360.59434" height="238.392"/>
+  </clipPath>
+ </defs>
+</svg>

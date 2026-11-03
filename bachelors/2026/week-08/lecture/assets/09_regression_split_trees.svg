@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="767.7pt" height="318.249969pt" viewBox="0 0 767.7 318.249969" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-29T13:40:08.533719</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 318.249969
+L 767.7 318.249969
+L 767.7 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 169.124299 96.591417
+L 95.202336 151.465929
+" clip-path="url(#p364df04899)" style="fill: none; stroke: #697889; stroke-width: 1.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 197.285047 96.591417
+L 271.207009 151.465929
+" clip-path="url(#p364df04899)" style="fill: none; stroke: #697889; stroke-width: 1.75; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 107.522664 97.431333
+L 258.886682 97.431333
+Q 266.630888 97.431333 266.630888 91.271949
+L 266.630888 60.475029
+Q 266.630888 54.315645 258.886682 54.315645
+L 107.522664 54.315645
+Q 99.778458 54.315645 99.778458 60.475029
+L 99.778458 91.271949
+Q 99.778458 97.431333 107.522664 97.431333
+z
+" clip-path="url(#p364df04899)" style="fill: #ecf3fa; stroke: #2864a3; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #697889" x="116.322897" y="120.669009" transform="rotate(-0 116.322897 120.669009)">Да</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #697889" x="250.086449" y="120.669009" transform="rotate(-0 250.086449 120.669009)">Нет</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 18.640304 250.016073
+L 171.764369 250.016073
+Q 179.508575 250.016073 179.508575 243.856689
+L 179.508575 159.865089
+Q 179.508575 153.705705 171.764369 153.705705
+L 18.640304 153.705705
+Q 10.896098 153.705705 10.896098 159.865089
+L 10.896098 243.856689
+Q 10.896098 250.016073 18.640304 250.016073
+z
+" clip-path="url(#p364df04899)" style="fill: #eff8f4; stroke: #19785a; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 194.644977 250.016073
+L 347.769042 250.016073
+Q 355.513248 250.016073 355.513248 243.856689
+L 355.513248 159.865089
+Q 355.513248 153.705705 347.769042 153.705705
+L 194.644977 153.705705
+Q 186.900771 153.705705 186.900771 159.865089
+L 186.900771 243.856689
+Q 186.900771 250.016073 194.644977 250.016073
+z
+" clip-path="url(#p364df04899)" style="fill: #eff8f4; stroke: #19785a; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 600; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #19785a" x="183.204673" y="286.538394" transform="rotate(-0 183.204673 286.538394)">Сумма RSS = 2,67</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 600; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="183.204673" y="17.077969" transform="rotate(-0 183.204673 17.077969)">Кандидат A</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #1e293b" x="183.204673" y="79.04677" transform="rotate(-0 183.204673 79.04677)">Условие: x ≤ 3,5</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(71.962883 183.531416)">x: 1, 2, 3</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(72.343508 197.682627)">y: 1, 2, 1</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(57.387571 211.833838)">Прогноз: 1,33</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(65.462727 225.985049)">RSS = 0,67</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(247.967556 183.531416)">x: 4, 5, 6</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(248.348181 197.682627)">y: 7, 8, 9</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(233.392244 211.833838)">Прогноз: 8,00</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(241.4674 225.985049)">RSS = 2,00</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="line2d_3">
+    <path d="M 570.414953 96.591417
+L 496.492991 151.465929
+" clip-path="url(#p24abb4f9aa)" style="fill: none; stroke: #697889; stroke-width: 1.75; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 598.575701 96.591417
+L 672.497664 151.465929
+" clip-path="url(#p24abb4f9aa)" style="fill: none; stroke: #697889; stroke-width: 1.75; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 508.813318 97.431333
+L 660.177336 97.431333
+Q 667.921542 97.431333 667.921542 91.271949
+L 667.921542 60.475029
+Q 667.921542 54.315645 660.177336 54.315645
+L 508.813318 54.315645
+Q 501.069112 54.315645 501.069112 60.475029
+L 501.069112 91.271949
+Q 501.069112 97.431333 508.813318 97.431333
+z
+" clip-path="url(#p24abb4f9aa)" style="fill: #ecf3fa; stroke: #2864a3; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #697889" x="517.613551" y="120.669009" transform="rotate(-0 517.613551 120.669009)">Да</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #697889" x="651.377103" y="120.669009" transform="rotate(-0 651.377103 120.669009)">Нет</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 419.930958 250.016073
+L 573.055023 250.016073
+Q 580.799229 250.016073 580.799229 243.856689
+L 580.799229 159.865089
+Q 580.799229 153.705705 573.055023 153.705705
+L 419.930958 153.705705
+Q 412.186752 153.705705 412.186752 159.865089
+L 412.186752 243.856689
+Q 412.186752 250.016073 419.930958 250.016073
+z
+" clip-path="url(#p24abb4f9aa)" style="fill: #f8f5f0; stroke: #b66a20; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 595.935631 250.016073
+L 749.059696 250.016073
+Q 756.803902 250.016073 756.803902 243.856689
+L 756.803902 159.865089
+Q 756.803902 153.705705 749.059696 153.705705
+L 595.935631 153.705705
+Q 588.191425 153.705705 588.191425 159.865089
+L 588.191425 243.856689
+Q 588.191425 250.016073 595.935631 250.016073
+z
+" clip-path="url(#p24abb4f9aa)" style="fill: #f8f5f0; stroke: #b66a20; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 600; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #b66a20" x="584.495327" y="286.538394" transform="rotate(-0 584.495327 286.538394)">Сумма RSS = 25,25</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 600; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="584.495327" y="17.077969" transform="rotate(-0 584.495327 17.077969)">Кандидат B</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #1e293b" x="584.495327" y="79.04677" transform="rotate(-0 584.495327 79.04677)">Условие: x ≤ 4,5</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(466.576194 183.531416)">x: 1, 2, 3, 4</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(466.956819 197.682627)">y: 1, 2, 1, 7</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(458.678225 211.833838)">Прогноз: 2,75</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(463.413069 225.985049)">RSS = 24,75</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(655.935554 183.531416)">x: 5, 6</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(656.316179 197.682627)">y: 8, 9</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(634.682898 211.833838)">Прогноз: 8,50</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(642.758054 225.985049)">RSS = 0,50</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p364df04899">
+   <rect x="7.2" y="31.077969" width="352.009346" height="279.972"/>
+  </clipPath>
+  <clipPath id="p24abb4f9aa">
+   <rect x="408.490654" y="31.077969" width="352.009346" height="279.972"/>
+  </clipPath>
+ </defs>
+</svg>

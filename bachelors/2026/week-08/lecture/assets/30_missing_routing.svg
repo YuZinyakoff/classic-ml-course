@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="991.91952pt" height="329.51952pt" viewBox="0 0 991.91952 329.51952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-29T19:52:59.382972</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 329.51952
+L 991.91952 329.51952
+L 991.91952 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 55.846778 134.776973
+L 287.753062 134.776973
+Q 291.56522 134.776973 291.56522 131.629223
+L 291.56522 92.282352
+Q 291.56522 89.134602 287.753062 89.134602
+L 55.846778 89.134602
+Q 52.03462 89.134602 52.03462 92.282352
+L 52.03462 131.629223
+Q 52.03462 134.776973 55.846778 134.776973
+z
+" clip-path="url(#p1217a7582c)" style="fill: #fff0dd; stroke: #c47720; stroke-width: 1.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 35.197589 208.224467
+L 308.402251 208.224467
+Q 312.214409 208.224467 312.214409 205.076717
+L 312.214409 160.483596
+Q 312.214409 157.335846 308.402251 157.335846
+L 35.197589 157.335846
+Q 31.385431 157.335846 31.385431 160.483596
+L 31.385431 205.076717
+Q 31.385431 208.224467 35.197589 208.224467
+z
+" clip-path="url(#p1217a7582c)" style="fill: #f2f6f8; stroke: #adc1cc; stroke-width: 1.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 46.316383 275.114149
+L 297.283457 275.114149
+Q 301.095615 275.114149 301.095615 271.966399
+L 301.095615 229.996402
+Q 301.095615 226.848653 297.283457 226.848653
+L 46.316383 226.848653
+Q 42.504225 226.848653 42.504225 229.996402
+L 42.504225 271.966399
+Q 42.504225 275.114149 46.316383 275.114149
+z
+" clip-path="url(#p1217a7582c)" style="fill: #ddf3ee; stroke: #158c80; stroke-width: 1.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #16334c" x="171.79992" y="114.9911" transform="rotate(-0 171.79992 114.9911)">age = ?</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #16334c" x="171.79992" y="185.539531" transform="rotate(-0 171.79992 185.539531)">age ← 29</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #16334c" x="171.79992" y="253.740776" transform="rotate(-0 171.79992 253.740776)">age ≤ 30?</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 171.79992 134.937908
+Q 171.79992 144.742264 171.79992 152.981372
+" style="fill: none; stroke: #adc1cc; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 173.85992 148.861372
+L 171.79992 152.981372
+L 169.73992 148.861372
+z
+" style="fill: #adc1cc; stroke: #adc1cc; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 171.79992 208.392126
+Q 171.79992 215.570728 171.79992 221.184082
+" style="fill: none; stroke: #adc1cc; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 173.85992 217.064082
+L 171.79992 221.184082
+L 169.73992 217.064082
+z
+" style="fill: #adc1cc; stroke: #adc1cc; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52687a" x="171.79992" y="306.067021" transform="rotate(-0 171.79992 306.067021)">Правило для заполненного числа</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #16334c" x="171.79992" y="42.247042" transform="rotate(-0 171.79992 42.247042)">1. Заполнение</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_7">
+    <path d="M 380.006618 134.776973
+L 611.912902 134.776973
+Q 615.72506 134.776973 615.72506 131.629223
+L 615.72506 92.282352
+Q 615.72506 89.134602 611.912902 89.134602
+L 380.006618 89.134602
+Q 376.19446 89.134602 376.19446 92.282352
+L 376.19446 131.629223
+Q 376.19446 134.776973 380.006618 134.776973
+z
+" clip-path="url(#p67ee23799c)" style="fill: #fff0dd; stroke: #c47720; stroke-width: 1.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 359.357429 208.224467
+L 632.562091 208.224467
+Q 636.374249 208.224467 636.374249 205.076717
+L 636.374249 160.483596
+Q 636.374249 157.335846 632.562091 157.335846
+L 359.357429 157.335846
+Q 355.545271 157.335846 355.545271 160.483596
+L 355.545271 205.076717
+Q 355.545271 208.224467 359.357429 208.224467
+z
+" clip-path="url(#p67ee23799c)" style="fill: #f2f6f8; stroke: #adc1cc; stroke-width: 1.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 370.476223 275.114149
+L 621.443297 275.114149
+Q 625.255455 275.114149 625.255455 271.966399
+L 625.255455 229.996402
+Q 625.255455 226.848653 621.443297 226.848653
+L 370.476223 226.848653
+Q 366.664065 226.848653 366.664065 229.996402
+L 366.664065 271.966399
+Q 366.664065 275.114149 370.476223 275.114149
+z
+" clip-path="url(#p67ee23799c)" style="fill: #ddf3ee; stroke: #158c80; stroke-width: 1.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #16334c" x="495.95976" y="114.9911" transform="rotate(-0 495.95976 114.9911)">age = ?</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #16334c" x="495.95976" y="185.624688" transform="rotate(-0 495.95976 185.624688)">При обучении выбрали «вправо»</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #16334c" x="495.95976" y="253.740776" transform="rotate(-0 495.95976 253.740776)">Пропуск → вправо</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 495.95976 134.937908
+Q 495.95976 144.742264 495.95976 152.981372
+" style="fill: none; stroke: #adc1cc; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 498.01976 148.861372
+L 495.95976 152.981372
+L 493.89976 148.861372
+z
+" style="fill: #adc1cc; stroke: #adc1cc; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 495.95976 208.392126
+Q 495.95976 215.570728 495.95976 221.184082
+" style="fill: none; stroke: #adc1cc; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 498.01976 217.064082
+L 495.95976 221.184082
+L 493.89976 217.064082
+z
+" style="fill: #adc1cc; stroke: #adc1cc; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52687a" x="495.95976" y="306.067021" transform="rotate(-0 495.95976 306.067021)">Запомненное направление узла</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #16334c" x="495.95976" y="42.247042" transform="rotate(-0 495.95976 42.247042)">2. Направление</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_12">
+    <path d="M 704.166458 134.776973
+L 936.072742 134.776973
+Q 939.8849 134.776973 939.8849 131.629223
+L 939.8849 92.282352
+Q 939.8849 89.134602 936.072742 89.134602
+L 704.166458 89.134602
+Q 700.3543 89.134602 700.3543 92.282352
+L 700.3543 131.629223
+Q 700.3543 134.776973 704.166458 134.776973
+z
+" clip-path="url(#pb80a0722ff)" style="fill: #fff0dd; stroke: #c47720; stroke-width: 1.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 683.517269 208.224467
+L 956.721931 208.224467
+Q 960.534089 208.224467 960.534089 205.076717
+L 960.534089 160.483596
+Q 960.534089 157.335846 956.721931 157.335846
+L 683.517269 157.335846
+Q 679.705111 157.335846 679.705111 160.483596
+L 679.705111 205.076717
+Q 679.705111 208.224467 683.517269 208.224467
+z
+" clip-path="url(#pb80a0722ff)" style="fill: #f2f6f8; stroke: #adc1cc; stroke-width: 1.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 694.636063 275.114149
+L 945.603137 275.114149
+Q 949.415295 275.114149 949.415295 271.966399
+L 949.415295 229.996402
+Q 949.415295 226.848653 945.603137 226.848653
+L 694.636063 226.848653
+Q 690.823905 226.848653 690.823905 229.996402
+L 690.823905 271.966399
+Q 690.823905 275.114149 694.636063 275.114149
+z
+" clip-path="url(#pb80a0722ff)" style="fill: #ddf3ee; stroke: #158c80; stroke-width: 1.35; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #16334c" x="820.1196" y="114.9911" transform="rotate(-0 820.1196 114.9911)">age = ?</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #16334c" x="820.1196" y="185.539531" transform="rotate(-0 820.1196 185.539531)">Проверим стаж</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #16334c" x="820.1196" y="253.740776" transform="rotate(-0 820.1196 253.740776)">experience ≤ 5?</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 820.1196 134.937908
+Q 820.1196 144.742264 820.1196 152.981372
+" style="fill: none; stroke: #adc1cc; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 822.1796 148.861372
+L 820.1196 152.981372
+L 818.0596 148.861372
+z
+" style="fill: #adc1cc; stroke: #adc1cc; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 820.1196 208.392126
+Q 820.1196 215.570728 820.1196 221.184082
+" style="fill: none; stroke: #adc1cc; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 822.1796 217.064082
+L 820.1196 221.184082
+L 818.0596 217.064082
+z
+" style="fill: #adc1cc; stroke: #adc1cc; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52687a" x="820.1196" y="306.067021" transform="rotate(-0 820.1196 306.067021)">Предикат, похожий на основной</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #16334c" x="820.1196" y="42.247042" transform="rotate(-0 820.1196 42.247042)">3. Запасной split</text>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #16334c" x="495.95976" y="24.055" transform="rotate(-0 495.95976 24.055)">Пропущенное значение: три разных механизма обработки</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1217a7582c">
+   <rect x="12.96" y="54.247042" width="317.67984" height="262.312478"/>
+  </clipPath>
+  <clipPath id="p67ee23799c">
+   <rect x="337.11984" y="54.247042" width="317.67984" height="262.312478"/>
+  </clipPath>
+  <clipPath id="pb80a0722ff">
+   <rect x="661.27968" y="54.247042" width="317.67984" height="262.312478"/>
+  </clipPath>
+ </defs>
+</svg>

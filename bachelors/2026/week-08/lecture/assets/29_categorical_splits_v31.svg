@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1470" height="700" viewBox="0 0 1470 700">
+  <title>Три способа работы с четырьмя номинальными категориями</title>
+  <desc>Ordinal: коды 1–4, порог 2.5 делит Москву и Казань против Перми и Омска. One-hot: индикатор Москвы отделяет один город от остальных. Категориальное условие непосредственно отделяет Москву и Пермь от Казани и Омска.</desc>
+  <rect x="0" y="0" width="1470" height="700" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1.5" />
+  <text x="30" y="47" fill="#172235" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="bold" text-anchor="start">Четыре города: разные представления — разные одиночные разбиения</text>
+  <rect x="25" y="78" width="455" height="600" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" />
+  <text x="45" y="120" fill="#172235" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Целочисленные коды</text>
+  <text x="45" y="149" fill="#607087" font-family="Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">ordinal encoding</text>
+  <text x="49" y="198" fill="#172235" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">Москва → 1</text>
+  <text x="49" y="234" fill="#172235" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">Казань → 2</text>
+  <text x="49" y="270" fill="#172235" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">Пермь → 3</text>
+  <text x="49" y="306" fill="#172235" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">Омск → 4</text>
+  <rect x="43" y="335" width="419" height="61" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5" />
+  <text x="252" y="374" fill="#2563eb" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="bold" text-anchor="middle">city_code ≤ 2.5</text>
+  <line x1="70" y1="396" x2="70" y2="544" stroke="#94a3b8" stroke-width="2" />
+  <line x1="70" y1="458" x2="110" y2="458" stroke="#94a3b8" stroke-width="2" />
+  <text x="75" y="447" fill="#607087" font-family="Arial, DejaVu Sans, sans-serif" font-size="17" font-weight="normal" text-anchor="start">Да</text>
+  <rect x="113" y="432" width="347" height="53" rx="12" fill="#f0fdfa" stroke="#99c9c0" stroke-width="1.5" />
+  <text x="286" y="466" fill="#0f766e" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Москва, Казань</text>
+  <line x1="70" y1="544" x2="110" y2="544" stroke="#94a3b8" stroke-width="2" />
+  <text x="75" y="533" fill="#607087" font-family="Arial, DejaVu Sans, sans-serif" font-size="17" font-weight="normal" text-anchor="start">Нет</text>
+  <rect x="113" y="518" width="347" height="53" rx="12" fill="#f0fdfa" stroke="#99c9c0" stroke-width="1.5" />
+  <text x="286" y="552" fill="#0f766e" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Пермь, Омск</text>
+  <text x="45" y="620" fill="#607087" font-family="Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">Порог использует порядок кодов,</text>
+  <text x="45" y="647" fill="#607087" font-family="Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">который мы задали произвольно.</text>
+  <rect x="510" y="78" width="455" height="600" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" />
+  <text x="530" y="120" fill="#172235" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Бинарные индикаторы</text>
+  <text x="530" y="149" fill="#607087" font-family="Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">one-hot encoding</text>
+  <text x="534" y="198" fill="#172235" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">city_Москва:</text>
+  <text x="534" y="234" fill="#172235" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">Москва → 1</text>
+  <text x="534" y="270" fill="#172235" font-family="Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">Казань, Пермь, Омск → 0</text>
+  <text x="534" y="306" fill="#172235" font-family="Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">(другие индикаторы — отдельно)</text>
+  <rect x="528" y="335" width="419" height="61" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5" />
+  <text x="737" y="374" fill="#2563eb" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="bold" text-anchor="middle">city_Москва ≤ 0.5</text>
+  <line x1="555" y1="396" x2="555" y2="544" stroke="#94a3b8" stroke-width="2" />
+  <line x1="555" y1="458" x2="595" y2="458" stroke="#94a3b8" stroke-width="2" />
+  <text x="560" y="447" fill="#607087" font-family="Arial, DejaVu Sans, sans-serif" font-size="17" font-weight="normal" text-anchor="start">Да</text>
+  <rect x="598" y="432" width="347" height="53" rx="12" fill="#f0fdfa" stroke="#99c9c0" stroke-width="1.5" />
+  <text x="771" y="466" fill="#0f766e" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Казань, Пермь, Омск</text>
+  <line x1="555" y1="544" x2="595" y2="544" stroke="#94a3b8" stroke-width="2" />
+  <text x="560" y="533" fill="#607087" font-family="Arial, DejaVu Sans, sans-serif" font-size="17" font-weight="normal" text-anchor="start">Нет</text>
+  <rect x="598" y="518" width="347" height="53" rx="12" fill="#f0fdfa" stroke="#99c9c0" stroke-width="1.5" />
+  <text x="771" y="552" fill="#0f766e" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Москва</text>
+  <text x="530" y="620" fill="#607087" font-family="Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">Один порог по одному индикатору:</text>
+  <text x="530" y="647" fill="#607087" font-family="Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">одна категория против остальных.</text>
+  <rect x="995" y="78" width="455" height="600" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" />
+  <text x="1015" y="120" fill="#172235" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Группа категорий</text>
+  <text x="1015" y="149" fill="#607087" font-family="Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">непосредственный предикат</text>
+  <text x="1019" y="198" fill="#172235" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">Москва</text>
+  <text x="1019" y="234" fill="#172235" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">Казань</text>
+  <text x="1019" y="270" fill="#172235" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">Пермь</text>
+  <text x="1019" y="306" fill="#172235" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">Омск</text>
+  <rect x="1013" y="335" width="419" height="61" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5" />
+  <text x="1222" y="374" fill="#2563eb" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="bold" text-anchor="middle">city ∈ {Москва, Пермь}</text>
+  <line x1="1040" y1="396" x2="1040" y2="544" stroke="#94a3b8" stroke-width="2" />
+  <line x1="1040" y1="458" x2="1080" y2="458" stroke="#94a3b8" stroke-width="2" />
+  <text x="1045" y="447" fill="#607087" font-family="Arial, DejaVu Sans, sans-serif" font-size="17" font-weight="normal" text-anchor="start">Да</text>
+  <rect x="1083" y="432" width="347" height="53" rx="12" fill="#f0fdfa" stroke="#99c9c0" stroke-width="1.5" />
+  <text x="1256" y="466" fill="#0f766e" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Москва, Пермь</text>
+  <line x1="1040" y1="544" x2="1080" y2="544" stroke="#94a3b8" stroke-width="2" />
+  <text x="1045" y="533" fill="#607087" font-family="Arial, DejaVu Sans, sans-serif" font-size="17" font-weight="normal" text-anchor="start">Нет</text>
+  <rect x="1083" y="518" width="347" height="53" rx="12" fill="#f0fdfa" stroke="#99c9c0" stroke-width="1.5" />
+  <text x="1256" y="552" fill="#0f766e" font-family="Arial, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">Казань, Омск</text>
+  <text x="1015" y="620" fill="#607087" font-family="Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">Один предикат сразу проверяет</text>
+  <text x="1015" y="647" fill="#607087" font-family="Arial, DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">принадлежность группе категорий.</text>
+</svg>

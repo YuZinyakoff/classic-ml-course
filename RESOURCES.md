@@ -45,6 +45,19 @@
   спуска, kNN, метрик, логистической регрессии, деревьев, ансамблей, PCA и
   k-means. Хороший вариант второго объяснения после лекции.
 
+### Энтропия и информация
+
+- [«Энтропия, Information Gain и Cross-Entropy: одна формула» — Даниил Фенелонов](https://danya-analyst.ru/blog/entropy-information-gain-cross-entropy/)
+  — доступное русскоязычное объяснение. После лекции о деревьях особенно
+  полезны части об энтропии и информационном выигрыше.
+
+- [Visual Information Theory — Christopher Olah](https://colah.github.io/posts/2015-09-Visual-Information/)
+  — наглядное объяснение вероятностей, кодирования, длины кодов и энтропии.
+
+- [Information, Entropy, and the Motivation for Source Codes — MIT 6.02](https://web.mit.edu/6.02/www/f2011/handouts/2.pdf)
+  — глава 2, прежде всего §2.1–2.3: систематический разбор информации,
+  энтропии и связи с кодированием сообщений.
+
 ## Если хочется пройти ещё один полноценный курс
 
 - [Курсы Сергея Николенко](https://www.sergeynikolenko.ru/courses)

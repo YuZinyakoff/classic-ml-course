@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="544.86pt" height="208.872pt" viewBox="0 0 544.86 208.872" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-29T12:30:08.595932</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 208.872
+L 544.86 208.872
+L 544.86 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 54.4752 182.1906
+L 495.5742 182.1906
+Q 499.72572 182.1906 499.72572 178.125
+L 499.72572 134.928
+Q 499.72572 130.8624 495.5742 130.8624
+L 54.4752 130.8624
+Q 50.32368 130.8624 50.32368 134.928
+L 50.32368 178.125
+Q 50.32368 182.1906 54.4752 182.1906
+z
+" clip-path="url(#p0150255c4b)" style="fill: #f1f5f8; stroke: #c0d0db; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #1e344b" x="272.43" y="37.8225" transform="rotate(-0 272.43 37.8225)">Состав листа</text>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m2ce5e8f0e9" d="M 0 10.124228
+C 2.684977 10.124228 5.260345 9.057476 7.158911 7.158911
+C 9.057476 5.260345 10.124228 2.684977 10.124228 0
+C 10.124228 -2.684977 9.057476 -5.260345 7.158911 -7.158911
+C 5.260345 -9.057476 2.684977 -10.124228 0 -10.124228
+C -2.684977 -10.124228 -5.260345 -9.057476 -7.158911 -7.158911
+C -9.057476 -5.260345 -10.124228 -2.684977 -10.124228 0
+C -10.124228 2.684977 -9.057476 5.260345 -7.158911 7.158911
+C -5.260345 9.057476 -2.684977 10.124228 0 10.124228
+z
+" style="stroke: #ffffff; stroke-width: 1.7"/>
+    </defs>
+    <g clip-path="url(#p0150255c4b)">
+     <use xlink:href="#m2ce5e8f0e9" x="62.2593" y="81.567" style="fill: #12877b; stroke: #ffffff; stroke-width: 1.7"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <g clip-path="url(#p0150255c4b)">
+     <use xlink:href="#m2ce5e8f0e9" x="108.9639" y="81.567" style="fill: #12877b; stroke: #ffffff; stroke-width: 1.7"/>
+    </g>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#p0150255c4b)">
+     <use xlink:href="#m2ce5e8f0e9" x="155.6685" y="81.567" style="fill: #12877b; stroke: #ffffff; stroke-width: 1.7"/>
+    </g>
+   </g>
+   <g id="PathCollection_4">
+    <defs>
+     <path id="mcd9b478bd4" d="M 0 10.124228
+C 2.684977 10.124228 5.260345 9.057476 7.158911 7.158911
+C 9.057476 5.260345 10.124228 2.684977 10.124228 0
+C 10.124228 -2.684977 9.057476 -5.260345 7.158911 -7.158911
+C 5.260345 -9.057476 2.684977 -10.124228 0 -10.124228
+C -2.684977 -10.124228 -5.260345 -9.057476 -7.158911 -7.158911
+C -9.057476 -5.260345 -10.124228 -2.684977 -10.124228 0
+C -10.124228 2.684977 -9.057476 5.260345 -7.158911 7.158911
+C -5.260345 9.057476 -2.684977 10.124228 0 10.124228
+z
+" style="stroke: #ffffff; stroke-width: 1.7"/>
+    </defs>
+    <g clip-path="url(#p0150255c4b)">
+     <use xlink:href="#mcd9b478bd4" x="202.3731" y="81.567" style="fill: #d97726; stroke: #ffffff; stroke-width: 1.7"/>
+    </g>
+   </g>
+   <g id="PathCollection_5">
+    <g clip-path="url(#p0150255c4b)">
+     <use xlink:href="#mcd9b478bd4" x="249.0777" y="81.567" style="fill: #d97726; stroke: #ffffff; stroke-width: 1.7"/>
+    </g>
+   </g>
+   <g id="PathCollection_6">
+    <g clip-path="url(#p0150255c4b)">
+     <use xlink:href="#mcd9b478bd4" x="295.7823" y="81.567" style="fill: #d97726; stroke: #ffffff; stroke-width: 1.7"/>
+    </g>
+   </g>
+   <g id="PathCollection_7">
+    <g clip-path="url(#p0150255c4b)">
+     <use xlink:href="#mcd9b478bd4" x="342.4869" y="81.567" style="fill: #d97726; stroke: #ffffff; stroke-width: 1.7"/>
+    </g>
+   </g>
+   <g id="PathCollection_8">
+    <g clip-path="url(#p0150255c4b)">
+     <use xlink:href="#mcd9b478bd4" x="389.1915" y="81.567" style="fill: #d97726; stroke: #ffffff; stroke-width: 1.7"/>
+    </g>
+   </g>
+   <g id="PathCollection_9">
+    <g clip-path="url(#p0150255c4b)">
+     <use xlink:href="#mcd9b478bd4" x="435.8961" y="81.567" style="fill: #d97726; stroke: #ffffff; stroke-width: 1.7"/>
+    </g>
+   </g>
+   <g id="PathCollection_10">
+    <g clip-path="url(#p0150255c4b)">
+     <use xlink:href="#mcd9b478bd4" x="482.6007" y="81.567" style="fill: #d97726; stroke: #ffffff; stroke-width: 1.7"/>
+    </g>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #12877b" x="121.9374" y="112.059" transform="rotate(-0 121.9374 112.059)">3 объекта класса 0</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #d97726" x="373.6233" y="112.059" transform="rotate(-0 373.6233 112.059)">7 объектов класса 1</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #1e344b" x="272.43" y="148.1412" transform="rotate(-0 272.43 148.1412)">Прогноз класса: 1</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #1e344b" x="272.43" y="167.961" transform="rotate(-0 272.43 167.961)">Оценки долей:  P(0) = 0.3,  P(1) = 0.7</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p0150255c4b">
+   <rect x="12.96" y="12.96" width="518.94" height="182.952"/>
+  </clipPath>
+ </defs>
+</svg>
