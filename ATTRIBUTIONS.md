@@ -216,3 +216,32 @@
   `seminar_completed.ipynb`. По решению преподавателя опубликованы обе версии;
   выполненный notebook предназначен для чтения после занятия.
 - **Дата проверки:** 2026-11-03.
+
+## Интерпретация и диагностика моделей — Week 9
+
+- **Авторские материалы курса:** текст лекции, численные примеры,
+  иллюстрации, компоненты Slidev и графики. Методическая опора —
+  [Christoph Molnar, Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/).
+  Рисунки, оформление и код книги не копировались.
+- **Данные для графиков:** H. Fanaee-T, J. Gama, *Bike Sharing Dataset*,
+  [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset),
+  [DOI 10.24432/C5W894](https://doi.org/10.24432/C5W894),
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+  Исключён один день с нулевой влажностью, погодные признаки переведены в
+  физические единицы, категории подписаны по-русски. Модели обучены и
+  графики построены для курса; оценка использует целиком отложенные месяцы.
+  Для семинара распространяется подготовленная дневная таблица
+  `bachelors/2026/week-09/seminar/data/bike_day_prepared.csv`:
+  730 наблюдений; авторские модели и исходные архивы не распространяются.
+  Описание преобразований — в
+  [DATA_SOURCE.md](bachelors/2026/week-09/seminar/DATA_SOURCE.md).
+- **Diamonds:** исторические данные о ценах и характеристиках 53 940
+  бриллиантов из `ggplot2`, загружаемые из `plotnine.data.diamonds`.
+  [Описание ggplot2](https://ggplot2.tidyverse.org/reference/diamonds.html),
+  [описание и загрузка в plotnine](https://plotnine.org/reference/diamonds.html).
+  Отдельный CSV Diamonds не публикуется. В notebook исключаются дубликаты
+  и неправдоподобные размеры, выбирается воспроизводимая подвыборка из
+  5000 камней; графики строятся учебным кодом курса.
+- **Шрифт контуров в SVG:** DejaVu Sans. Условия сохранены в
+  [LICENSE_DEJAVU.txt](presentation/decks/public/assets/week-09-v3/LICENSE_DEJAVU.txt).
+- **Дата проверки источника данных:** 2026-11-12.
