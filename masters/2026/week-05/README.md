@@ -23,6 +23,7 @@
 
 - [Студенческий notebook](seminar/seminar.ipynb)
 - [Зависимости Python](seminar/requirements.txt)
+- [Самостоятельная работа: регрессионное дерево](seminar/regression_tree_task.md)
 
 Код учебного классификатора уже приведён: его читаем, запускаем и исследуем,
 сравниваем со `sklearn`, затем проверяем ограничения сложности, CV, MDI и PI.
