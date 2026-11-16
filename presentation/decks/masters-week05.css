@@ -1,0 +1,14 @@
+@import './week08.css';
+@import './week09.css';
+
+.slidev-layout.masters-week05 { padding:20px 64px 54px; display:flex; flex-direction:column; color:#172033; }
+.masters-week05 .m5-header { flex:0 0 auto; }
+.masters-week05 .m5-service { display:flex; justify-content:space-between; color:#748297; font-size:15px; line-height:22px; letter-spacing:.07em; text-transform:uppercase; }
+.masters-week05 .m5-header h1 { margin:8px 0 0; font-size:42px; line-height:1.14; font-weight:550; letter-spacing:-.025em; }
+.masters-week05 .m5-cover h1 { font-size:52px; }
+.masters-week05 .m5-header + .w8-body { height:auto; flex:1; min-height:0; margin-top:16px; }
+.masters-week05 .w9-body { flex:1; min-height:0; }
+.masters-week05 .m5-final { gap:12px; }
+.masters-week05 .m5-final .w9-summary th,
+.masters-week05 .m5-final .w9-summary td { padding-top:9px; padding-bottom:9px; }
+.masters-week05 .m5-bridge { border-top:2px solid #a7bee3; padding-top:10px; color:#244e8b; }
