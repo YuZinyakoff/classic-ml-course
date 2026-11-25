@@ -72,6 +72,14 @@
   — интерактивные карты исследовательских вопросов в области AI safety.
   Дополнительный навигатор по смежным темам, не учебник по классическому XAI.
 
+### Ансамбли деревьев
+
+- [Яндекс Хендбук: ансамбли в машинном обучении](https://education.yandex.ru/handbook/ml/article/ansambli-v-mashinnom-obuchenii)
+  — дополнительное объяснение бутстрепа, бэггинга и случайного леса.
+- scikit-learn MOOC: [Bagging](https://inria.github.io/scikit-learn-mooc/python_scripts/ensemble_bagging.html)
+  и [Random Forest](https://inria.github.io/scikit-learn-mooc/python_scripts/ensemble_random_forest.html)
+  — практические эксперименты с параметрами ансамблей деревьев.
+
 ## Если хочется пройти ещё один полноценный курс
 
 - [Курсы Сергея Николенко](https://www.sergeynikolenko.ru/courses)

@@ -272,3 +272,24 @@
   ([BSD-3-Clause](https://github.com/scikit-learn/scikit-learn/blob/main/COPYING));
   библиотечный исходный код не копируется.
 - Дата проверки: 2026-11-16.
+
+## Смещение, разброс и ансамбли — Week 11
+
+- [Лекция](bachelors/2026/week-11/lecture/chapter.md), презентация и рисунки —
+  авторские материалы курса. Графики построены на синтетических данных
+  и учебных примерах, в том числе с помощью `sklearn.datasets.make_moons`;
+  внешние датасеты, книжные рисунки и сторонний код не включены.
+- В презентации использована ранее опубликованная
+  [схема сложности модели из недели 1](presentation/decks/public/assets/week-01/complexity-errors.svg).
+- Контуры DejaVu Sans в SVG распределения бутстреп-средних:
+  [условия лицензии DejaVu](presentation/decks/public/assets/week-11/LICENSE_DEJAVU.txt).
+
+### Семинар по случайному лесу — Week 11
+
+- [Студенческий ноутбук](bachelors/2026/week-11/seminar/seminar.ipynb) — учебный код курса.
+- **California Housing:** R. Kelley Pace, Ronald Barry (1997),
+  *Sparse Spatial Autoregressions*; сведения переписи США 1990 года,
+  исходная таблица в [StatLib](https://lib.stat.cmu.edu/datasets/houses.zip).
+  Ноутбук обращается к датасету через `fetch_california_housing` из
+  scikit-learn; архив, таблица и локальный кэш не распространяются.
+  См. [источник, преобразования и запуск](bachelors/2026/week-11/seminar/DATA_SOURCE.md).

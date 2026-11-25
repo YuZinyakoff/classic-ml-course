@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 552 320" role="img" aria-labelledby="title">
+<title id="title">Противоположные колебания</title>
+<g font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#203650">
+<text x="304" y="27" text-anchor="middle" font-size="25" font-weight="650">Противоположные колебания</text>
+
+<path d="M74 242H533" stroke="#d7e2f1"/><text x="64" y="248" text-anchor="end">8</text>
+<path d="M74 205H533" stroke="#d7e2f1"/><text x="64" y="211" text-anchor="end">9</text>
+<path d="M74 168H533" stroke="#d7e2f1"/><text x="64" y="174" text-anchor="end">10</text>
+<path d="M74 131H533" stroke="#d7e2f1"/><text x="64" y="137" text-anchor="end">11</text>
+<path d="M74 94H533" stroke="#d7e2f1"/><text x="64" y="100" text-anchor="end">12</text>
+<path d="M74 75V258H533" fill="none" stroke="#7990ab" stroke-width="1.6"/>
+<path d="M100 258v7" stroke="#7990ab"/><text x="100" y="286" text-anchor="middle">1</text>
+<path d="M237 258v7" stroke="#7990ab"/><text x="237" y="286" text-anchor="middle">2</text>
+<path d="M374 258v7" stroke="#7990ab"/><text x="374" y="286" text-anchor="middle">3</text>
+<path d="M511 258v7" stroke="#7990ab"/><text x="511" y="286" text-anchor="middle">4</text>
+<g data-series="mean" data-values="10,10,10,10"><polyline points="100,168 237,168 374,168 511,168" fill="none" stroke="#31825c" stroke-width="7"  stroke-linejoin="round"/>
+<path d="M100 160l8 8l-8 8l-8-8Z" fill="#31825c"/><path d="M237 160l8 8l-8 8l-8-8Z" fill="#31825c"/><path d="M374 160l8 8l-8 8l-8-8Z" fill="#31825c"/><path d="M511 160l8 8l-8 8l-8-8Z" fill="#31825c"/></g>
+<g data-series="model-1" data-values="8,12,9,11"><polyline points="100,242 237,94 374,205 511,131" fill="none" stroke="#245dcd" stroke-width="2.4"  stroke-linejoin="round"/>
+<circle cx="100" cy="242" r="5.5" fill="none" stroke="#245dcd" stroke-width="2.6"/><circle cx="237" cy="94" r="5.5" fill="none" stroke="#245dcd" stroke-width="2.6"/><circle cx="374" cy="205" r="5.5" fill="none" stroke="#245dcd" stroke-width="2.6"/><circle cx="511" cy="131" r="5.5" fill="none" stroke="#245dcd" stroke-width="2.6"/></g>
+<g data-series="model-2" data-values="12,8,11,9"><polyline points="100,94 237,242 374,131 511,205" fill="none" stroke="#a34a16" stroke-width="3.0" stroke-dasharray="11 8" stroke-linejoin="round"/>
+<path d="M97 91l6 6m0 -6l-6 6" stroke="#a34a16" stroke-width="2.4" stroke-linecap="round"/><path d="M234 239l6 6m0 -6l-6 6" stroke="#a34a16" stroke-width="2.4" stroke-linecap="round"/><path d="M371 128l6 6m0 -6l-6 6" stroke="#a34a16" stroke-width="2.4" stroke-linecap="round"/><path d="M508 202l6 6m0 -6l-6 6" stroke="#a34a16" stroke-width="2.4" stroke-linecap="round"/></g>
+<text x="304" y="313" text-anchor="middle" font-size="21">Номер повторного обучения</text>
+<text transform="translate(24 168) rotate(-90)" text-anchor="middle" font-size="21">Прогноз при фиксированном x</text>
+</g>
+</svg>
